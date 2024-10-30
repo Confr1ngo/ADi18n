@@ -69,14 +69,13 @@ export default {
 
       if (this.remainingTimeText === "") {
         if (remainingTime === 0) {
-          this.remainingTimeText = `At Infinite Replicanti (normally takes
-            ${TimeSpan.fromSeconds(secondsPerGalaxy.toNumber())})`;
+          this.remainingTimeText = `你有无限复制器（通常需要
+            ${TimeSpan.fromSeconds(secondsPerGalaxy.toNumber())}达到）`;
         } else if (replicantiAmount.lt(100)) {
           // Because of discrete replication, we add "Approximately" at very low amounts
-          this.remainingTimeText = `Approximately ${TimeSpan.fromSeconds(remainingTime)} remaining
-            until Infinite Replicanti`;
+          this.remainingTimeText = `距无限复制器大约还剩 ${TimeSpan.fromSeconds(remainingTime)}`;
         } else {
-          this.remainingTimeText = `${TimeSpan.fromSeconds(remainingTime)} remaining until Infinite Replicanti`;
+          this.remainingTimeText = `距无限复制器还剩 ${TimeSpan.fromSeconds(remainingTime)}`;
         }
       }
 
@@ -89,12 +88,12 @@ export default {
       if (Replicanti.galaxies.max > 0) {
         // If the player has max RGs, don't display the "You are gaining blah" text
         if (player.replicanti.galaxies === Replicanti.galaxies.max) {
-          this.galaxyText = "You have reached the maximum amount of Replicanti Galaxies";
+          this.galaxyText = "你的复制星系数量已达到最大值";
         } else {
-          this.galaxyText = `You are gaining a Replicanti Galaxy every
-            ${TimeSpan.fromSeconds(secondsPerGalaxy.toNumber())}`;
+          this.galaxyText = `你每 
+            ${TimeSpan.fromSeconds(secondsPerGalaxy.toNumber())}可以获取一个复制星系`;
           if (galaxiesPerSecond.gte(1)) {
-            this.galaxyText = `You are gaining ${quantify("Replicanti Galaxy", galaxiesPerSecond, 2, 1)} per second`;
+            this.galaxyText = `你每秒可以获取 ${format(galaxiesPerSecond, 2, 1)} 个复制星系`;
           }
           // Take the total time from zero replicanti to max RG + e308 replicanti and then subtract away the time which
           // has already elapsed. The time elapsed is calculated from your current RG total (including the current one)

@@ -35,8 +35,7 @@ export const eternityMilestones = {
       return `${$t("milestone_6_eternities", formatPercents(0.25))} (${effectText})`;
     },
     activeCondition: () => (player.options.offlineProgress
-      ? `Active as long as neither of the other offline milestones
-        (${formatInt(200)} or ${formatInt(1000)}) are also active`
+      ? `当里程碑 ${formatInt(200)} 和 ${formatInt(1000)} 均未生效时，该里程碑将生效`
       : ""),
   },
   autoIC: {
@@ -141,7 +140,7 @@ export const eternityMilestones = {
   },
   autobuyerEternity: {
     eternities: 100,
-    reward: "Unlock autobuyer for Eternities"
+    reward: "解锁永恒自动购买器"
   },
   autoEternities: {
     eternities: 200,
@@ -153,12 +152,11 @@ export const eternityMilestones = {
       // which seems messy to say the least.
       const realTime = PlayerProgress.seenAlteredSpeed() ? " real-time" : "";
       // eslint-disable-next-line prefer-template
-      return `While offline, gain Eternities at ${formatPercents(0.5)} the rate of your fastest${realTime} Eternity ` +
-        (eternities.gt(0) ? `(Currently ${format(eternities, 2, 2)}/hour)` : "(Inactive)");
+      return `当离线时，按你的最快永恒速度的 ${formatPercents(0.5)} 获取永恒次数` +
+        (eternities.gt(0) ? `（当前 ${format(eternities, 2, 2)} 次每小时）` : "（未启用）");
     },
     activeCondition: () => (player.options.offlineProgress
-      ? `Must be outside of all Challenges and Dilation, and the Eternity Autobuyer must be set to Eternity at zero EP.
-        This milestone's effect is capped at ${formatInt(33)}ms.`
+      ? `必须处于挑战和时间膨胀外，且永恒自动购买器必须被设为 0 永恒点数。该里程碑最多 ${formatInt(33)} 毫秒触发一次。`
       : ""),
       pelleUseless: true
   },
@@ -169,14 +167,11 @@ export const eternityMilestones = {
       const infinities = getInfinitiedMilestoneReward(TimeSpan.fromHours(1).totalMilliseconds,
         player.eternities.gte(1000));
       // eslint-disable-next-line prefer-template
-      return `While offline, gain Infinities equal to ${formatPercents(0.5)}
-        your best Infinities/hour this Eternity ` +
-        (infinities.gt(0) ? `(Currently ${format(infinities, 2, 2)}/hour)` : "(Inactive)");
+      return `当离线时，按你当前永恒的最快无限速度的 ${formatPercents(0.5)} 获取无限次数` +
+        (infinities.gt(0) ? `（当前 ${format(infinities, 2, 2)} 次每小时）` : "（未启用）");
     },
     activeCondition: () => (player.options.offlineProgress
-      ? `Must be outside of Normal/Infinity Challenges and outside of EC4 and EC12,
-        the Big Crunch Autobuyer must be turned on and set to time mode with ${formatInt(5)} seconds or less,
-        and the Eternity Autobuyer must be turned off.`
+      ? `必须处于普通挑战、无限挑战、永恒挑战 4 和永恒挑战 12 之外。大坍缩自动购买器必须打开并设置间隔为小于等于 ${formatInt(5)} 秒，且必须关闭永恒自动购买器。`
       : ""),
       pelleUseless: true
   }

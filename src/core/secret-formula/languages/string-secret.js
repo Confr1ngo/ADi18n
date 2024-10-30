@@ -34,7 +34,7 @@ export const secret = {
   "X_time_left": "剩余 $1",
   "X_time_simulated": "已计算 $1/$2",
   "X_time_spent_offline": "离线进度用时 $1",
-  "X_total": "（总计需 $1 ）",
+  "X_total": "（总计需 $1）",
   "X_total_Y_purchased": "(总计 $1; 已购买 $2)",
   "X_until_Y": "($1 后达到 $2)",
   "X_until_Y_replicanti": "距离 $2 复制人还有 $1",

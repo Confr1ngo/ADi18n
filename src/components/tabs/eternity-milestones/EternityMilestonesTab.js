@@ -32,7 +32,7 @@ export default {
   <div class="l-eternity-milestone-grid">
     <div>{{ $p("statistics_eternities", eternityCount, format(eternityCount, 2)) }}</div>
     <div>
-      Offline generation milestones are only active under certain conditions, mouse-over to see these conditions.
+	  离线生产里程碑仅在特定条件下有效，将鼠标悬停在对应里程碑上来查看条件。
     </div>
     <div
       v-for="row in rows"

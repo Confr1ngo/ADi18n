@@ -47,8 +47,8 @@ export default {
     replicantiChanceSetup() {
       return new ReplicantiUpgradeButtonSetup(
         ReplicantiUpgrade.chance,
-        value => `Replicate chance: ${formatPercents(value)}`,
-        cost => `+${formatPercents(0.01)} Costs: ${format(cost)} IP`
+        value => `复制概率: ${formatPercents(value)}`,
+        cost => `+${formatPercents(0.01)} 成本：${format(cost)} 无限点数`
       );
     },
     replicantiIntervalSetup() {
@@ -66,14 +66,14 @@ export default {
         }
         if (actualInterval.lt(0.01)) return `< ${format(0.01, 2, 2)}ms`;
         if (actualInterval.gt(1000))
-          return `${format(actualInterval.div(1000), 2, 2)}s`;
-        return `${format(actualInterval, 2, 2)}ms`;
+          return `${format(actualInterval.div(1000), 2, 2)} 秒`;
+        return `${format(actualInterval, 2, 2)} 毫秒`;
       }
       return new ReplicantiUpgradeButtonSetup(
         upgrade,
-        value => `Interval: ${formatInterval(value)}`,
+        value => `复制间隔：${formatInterval(value)}`,
         cost =>
-          `➜ ${formatInterval(upgrade.nextValue)} Costs: ${format(cost)} IP`
+          `➜ ${formatInterval(upgrade.nextValue)} 成本：${format(cost)} 无限点数`
       );
     },
     maxGalaxySetup() {
@@ -81,7 +81,7 @@ export default {
       return new ReplicantiUpgradeButtonSetup(
         upgrade,
         value => {
-          let description = `Max Replicanti Galaxies: `;
+          let description = `最大复制星系数量：`;
           const extra = upgrade.extra;
           if (extra > 0) {
             const total = value + extra;
@@ -91,13 +91,13 @@ export default {
           }
           return description;
         },
-        cost => `+${formatInt(1)} Costs: ${format(cost)} IP`
+        cost => `+${formatInt(1)} 成本：${format(cost)} 无限点数`
       );
     },
     boostText() {
       const boostList = [];
-      boostList.push(`a <span class="c-replicanti-description__accent">${formatX(this.mult, 2, 2)}</span>
-        multiplier on all Infinity Dimensions`);
+      boostList.push(`为所有无限维度提供了 <span class="c-replicanti-description__accent">${formatX(this.mult, 2, 2)}</span>
+        倍率。`);
       if (this.hasTDMult) {
         boostList.push(`a <span class="c-replicanti-description__accent">${formatX(this.multTD, 2, 2)}</span>
           multiplier on all Time Dimensions from a Dilation Upgrade`);
@@ -111,7 +111,7 @@ export default {
         boostList.push(`a <span class="c-replicanti-description__accent">${formatX(this.multIP)}</span>
           multiplier to Infinity Points from Glyph Alchemy`);
       }
-      if (boostList.length === 1) return `${boostList[0]}.`;
+      if (boostList.length === 1) return `${boostList[0]}`;
       if (boostList.length === 2) return `${boostList[0]}<br> and ${boostList[1]}.`;
       return `${boostList.slice(0, -1).join(",<br>")},<br> and ${boostList[boostList.length - 1]}.`;
     },
@@ -217,9 +217,9 @@ export default {
         (Next Replicanti Galaxy at {{ format(nextEffarigRGThreshold, 2) }} cap)
       </div>
       <p class="c-replicanti-description">
-        You have
+        你当前的
         <span class="c-replicanti-description__accent">{{ format(amount, 2, 0) }}</span>
-        Replicanti, translated to
+        个复制器
         <br>
         <span v-html="boostText" />
       </p>
@@ -227,12 +227,12 @@ export default {
         v-if="hasMaxText"
         class="c-replicanti-description"
       >
-        Your maximum Replicanti reached this Reality is
+        你当前现实中获取的最大复制器数量是
         <span
           v-tooltip="toMaxTooltip"
           class="max-accent"
           data-v-replicanti-tab
-        >{{ format(maxReplicanti, 2) }}</span>.
+        >{{ format(maxReplicanti, 2) }}</span>。
       </div>
       <br>
       <div v-if="isInEC8">
@@ -244,11 +244,7 @@ export default {
         <ReplicantiUpgradeButton :setup="maxGalaxySetup" />
       </div>
       <div>
-        The Max Replicanti Galaxy upgrade can be purchased endlessly, but costs increase
-        <br>
-        more rapidly above {{ formatInt(distantRG) }} Replicanti Galaxies
-        and even more so above {{ formatInt(remoteRG) }} Replicanti Galaxies.
-      </div>
+        最大复制星系数量可以无限购买，但在购买 {{ formatInt(distantRG) }} 次后价格大幅提升，购买 {{ formatInt(remoteRG) }} 次后增长更加迅速。</div>
       <br><br>
       <ReplicantiGainText />
       <br>

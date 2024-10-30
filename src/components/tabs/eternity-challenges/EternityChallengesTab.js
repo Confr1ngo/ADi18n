@@ -106,7 +106,7 @@ export default {
       你已见过 {{ formatInt(12) }} 个永恒挑战中的 {{ formatInt(unlockedCount) }} 个。
     </div>
     <div v-else>
-      你已见过 {{ formatInt(12) }} 永恒挑战。
+      你已见过 {{ formatInt(12) }} 个永恒挑战。
     </div>
     <ChallengeGrid
       v-slot="{ challenge }"
