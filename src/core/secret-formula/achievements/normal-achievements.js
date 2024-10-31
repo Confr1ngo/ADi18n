@@ -297,7 +297,7 @@ export const normalAchievements = [
     description: () => $t("achievement_58_tooltip", formatInt(3)),
     checkRequirement: () => NormalChallenge(9).isOnlyActiveChallenge && Time.thisInfinityRealTime.totalMinutes <= 3,
     checkEvent: GAME_EVENT.BIG_CRUNCH_BEFORE,
-    reward: () => $t("achievement_58_tooltip", formatInt(10), formatPercents(0.01)),
+    reward: () => $t("achievement_58_reward", formatInt(10), formatPercents(0.01)),
     effect: 1.01
   },
   {
