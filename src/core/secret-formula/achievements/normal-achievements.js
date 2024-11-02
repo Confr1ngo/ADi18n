@@ -477,7 +477,7 @@ export const normalAchievements = [
     description: () => $t("achievement_87_tooltip", format(DC.D2E6)),
     checkRequirement: () => Currency.infinities.gt(DC.D2E6),
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: () => $t("achievement_87_tooltip", formatInt(5), formatX(250)),
+    reward: () => $t("achievement_87_reward", formatInt(5), formatX(250)),
     effect: 250,
     effectCondition: () => Time.thisInfinity.totalSeconds > 5
   },
@@ -572,7 +572,7 @@ export const normalAchievements = [
     description: () => $t("achievement_103_tooltip", formatPostBreak(DC.D9_99999E999, 5, 0)),
     checkRequirement: () => Currency.infinityPoints.exponent >= 1000,
     checkEvent: GAME_EVENT.GAME_TICK_AFTER,
-    reward: () => $t("achievement_103_tooltip", formatInt(308), formatFloat(307.8, 1)),
+    reward: () => $t("achievement_103_reward", formatInt(308), formatFloat(307.8, 1)),
     effect: 307.8
   },
   {
@@ -1036,7 +1036,7 @@ export const normalAchievements = [
     description: () => $t("achievement_175_tooltip", formatInt(Ra.alchemyResourceCap)),
     checkRequirement: () => AlchemyResources.all.every(x => x.amount >= Ra.alchemyResourceCap),
     checkEvent: GAME_EVENT.REALITY_RESET_AFTER,
-    reward: () => $t("achievement_175_tooltip", formatPercents(1), formatX(10)),
+    reward: () => $t("achievement_175_reward", formatPercents(1), formatX(10)),
     effect: 10,
   },
   {
