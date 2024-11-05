@@ -498,7 +498,7 @@ export const zhCN = {
   "achievement_multiplier_tp": "超光速粒子：$1",
   "achievement_multiplier_tt": "时间之理：$1",
   "achievement_not_completed": "未完成",
-  "activates_every_x_seconds": "X 秒后进行：",
+  "activates_every_x_seconds": "每 X 秒进行一次：",
   "active": "活跃",
   "active_X": "启动（$1）",
   "active_X_remaining": "启动（剩余 $1）",
