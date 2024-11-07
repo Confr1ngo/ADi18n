@@ -116,14 +116,14 @@ export default {
     },
     customCostStr() {
       const ttStr = this.setup.isSmall
-        ? $t("cost_X_time_theorems_short", formatInt(this.config.cost))
-        : $p("cost_X_time_theorems", this.config.cost, formatInt(this.config.cost));
-      const stStr = $t("cost_X_space_theorems_short", formatInt(this.STCost))
+        ? $t("cost_X_time_theorems_short", formatInt(this.config.cost)).replace('价格：','')
+        : $p("cost_X_time_theorems", this.config.cost, formatInt(this.config.cost)).replace('价格：','');
+      const stStr = $t("cost_X_space_theorems_short", formatInt(this.STCost)).replace('价格：','')
 
       const costs = [];
       if (this.config.cost) costs.push(ttStr);
       if (this.STCost && this.showStCost) costs.push(stStr);
-      return costs.join(" + ");
+      return '价格：'+costs.join(" + ");
     },
     doomedRealityStudy() {
       return this.study.type === TIME_STUDY_TYPE.DILATION && this.study.id === 6 && Pelle.isDoomed;

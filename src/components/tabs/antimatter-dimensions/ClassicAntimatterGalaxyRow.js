@@ -60,8 +60,8 @@ export default {
     costScalingText() {
       switch (this.type) {
         case GALAXY_TYPE.DISTANT:
-          return `Each Galaxy is more expensive past ${quantifyInt("Galaxy", this.distantStart)}`;
-        case GALAXY_TYPE.REMOTE: {
+          return `购买 ${formatInt(this.distantStart)} 个星系后价格增速提高`;
+		  case GALAXY_TYPE.REMOTE: {
           const scalings = [
             { type: "distant", function: "quadratic", amount: this.distantStart },
             { type: "remote", function: "exponential", amount: this.remoteStart }

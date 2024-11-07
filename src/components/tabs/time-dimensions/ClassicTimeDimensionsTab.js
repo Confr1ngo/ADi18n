@@ -32,7 +32,7 @@ export default {
       this.timeShards.copyFrom(Currency.timeShards);
       this.upgradeThreshold.copyFrom(FreeTickspeed.fromShards(Currency.timeShards.value).nextShards);
       this.shardsPerSecond.copyFrom(TimeDimension(1).productionPerRealSecond);
-      this.incomeType = EternityChallenge(7).isRunning ? "Eighth Infinity Dimensions" : "Time Shards";
+      this.incomeType = EternityChallenge(7).isRunning ? "第八无限维度" : "时间碎片";
       this.areAutobuyersUnlocked = Autobuyer.timeDimension(1).isUnlocked;
     },
     maxAll() {
@@ -78,7 +78,7 @@ export default {
       increasing above {{ formatInt(tickspeedSoftcap) }} Tickspeed upgrades.
     </div>
     <div>
-      You are getting {{ format(shardsPerSecond, 2, 0) }} {{ incomeType }} per second.
+      你每秒可获取 {{ format(shardsPerSecond, 2, 0) }}{{ incomeType }}。
     </div>
     <div class="l-dimensions-container">
       <TimeDimensionRow

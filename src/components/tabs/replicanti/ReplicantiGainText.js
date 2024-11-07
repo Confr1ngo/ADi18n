@@ -35,9 +35,9 @@ export default {
         const timeToThousand = coeff.times(nextMilestone.divide(replicantiAmount).pow(postScale).minus(1));
         // The calculation seems to choke and return zero if the time is too large, probably because of rounding issues
         const timeEstimateText = timeToThousand.eq(0)
-          ? "an extremely long time"
+          ? "真的很长的一段时间"
           : `${TimeSpan.fromSeconds(timeToThousand.toNumber())}`;
-        this.remainingTimeText = `You are gaining ${formatX(gainFactorPerSecond, 2, 1)} Replicanti per second` +
+        this.remainingTimeText = `你每秒可获取 ${formatX(gainFactorPerSecond, 2, 1)} 倍复制器` +
           ` ${$t("X_until_Y", timeEstimateText, format(nextMilestone))}`;
       } else {
         this.remainingTimeText = "";

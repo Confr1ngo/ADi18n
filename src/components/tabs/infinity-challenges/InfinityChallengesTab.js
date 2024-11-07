@@ -43,7 +43,6 @@ export default {
     <ChallengeTabHeader />
     <div>
       {{ $t("antimatter_challenge_crunch_info") }}
-      reaching an Infinity Challenge's antimatter goal, regardless of settings.
     </div>
     <div>{{ nextAtDisplay }}</div>
     <ChallengeGrid

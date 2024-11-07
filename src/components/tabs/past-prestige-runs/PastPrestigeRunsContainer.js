@@ -56,7 +56,11 @@ export default {
       return this.layer.condition();
     },
     plural() {
-      return this.layer.plural;
+      let plural_string=this.layer.plural;
+      if (plural_string=="Realities") return "现实";
+      if (plural_string=="Eternities") return "永恒";
+      if (plural_string=="Infinities") return "无限";
+    //   return this.layer.plual;
     },
     singular() {
       return this.layer.name;
@@ -232,7 +236,7 @@ export default {
         <i :class="dropDownIconClass" />
       </span>
       <span>
-        <h3>Last {{ formatInt(10) }} {{ plural }}:</h3>
+        <h3>最近 {{ formatInt(10) }} 次 {{ plural }}:</h3>
       </span>
     </div>
     <div v-show="shown">

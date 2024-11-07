@@ -32,7 +32,7 @@ export default {
       this.timeShards.copyFrom(Currency.timeShards);
       this.upgradeThreshold.copyFrom(FreeTickspeed.fromShards(Currency.timeShards.value).nextShards);
       this.shardsPerSecond.copyFrom(TimeDimension(1).productionPerSecond);
-      this.incomeType = EternityChallenge(7).isRunning ? "Eighth Infinity Dimensions" : "Time Shards";
+      this.incomeType = EternityChallenge(7).isRunning ? "第八无限维度" : "时间碎片";
       this.areAutobuyersUnlocked = Autobuyer.timeDimension(1).isUnlocked;
     },
     maxAll() {
@@ -50,34 +50,34 @@ export default {
         class="o-primary-btn--subtab-option"
         @click="maxAll"
       >
-        Max all
+        购买最大数量
       </PrimaryButton>
       <PrimaryButton
         v-if="areAutobuyersUnlocked"
         class="o-primary-btn--subtab-option"
         @click="toggleAllAutobuyers"
       >
-        Toggle all autobuyers
+        切换自动购买器状态
       </PrimaryButton>
     </div>
     <div>
       <p>
-        You have gained
-        <span class="c-time-dim-description__accent">{{ formatInt(totalUpgrades) }}</span> Tickspeed upgrades from
-        <span class="c-time-dim-description__accent">{{ format(timeShards, 2, 1) }}</span> Time Shards.
+        你已从 
+        <span class="c-time-dim-description__accent">{{ format(timeShards, 2, 1) }}</span> 个时间碎片中获得
+        <span class="c-time-dim-description__accent">{{ formatInt(totalUpgrades) }}</span> 个计数频率升级。
       </p>
       <p>
-        Next Tickspeed upgrade at
-        <span class="c-time-dim-description__accent">{{ format(upgradeThreshold, 2, 1) }}</span>, increasing by
-        <span class="c-time-dim-description__accent">{{ formatX(multPerTickspeed, 2, 2) }}</span> per
-        Tickspeed upgrade gained.
+        下一次计数频率升级需要 
+        <span class="c-time-dim-description__accent">{{ format(upgradeThreshold, 2, 1) }}</span> 个时间碎片，每次增长 
+        <span class="c-time-dim-description__accent">{{ formatX(multPerTickspeed, 2, 2) }}</span>。
       </p>
     </div>
     <div>
-      The amount each additional upgrade requires will start
-      increasing above {{ formatInt(tickspeedSoftcap) }} Tickspeed upgrades.
+	  每次额外升级所需的数量将从 {{ formatInt(tickspeedSoftcap) }} 个计数频率升级开始增加。
     </div>
-    <div>You are getting {{ format(shardsPerSecond, 2, 0) }} {{ incomeType }} per second.</div>
+    <div>
+	  你每秒可获取 {{ format(shardsPerSecond, 2, 0) }} 个{{ incomeType }}。
+	</div>
     <div class="l-dimensions-container">
       <NewTimeDimensionRow
         v-for="tier in 8"

@@ -18,11 +18,10 @@ export default {
   <div class="l-challenges-tab">
     <ChallengeTabHeader />
     <div>
-      Some Normal Challenges have requirements to be able to run that challenge.
+      某些挑战设有解锁条件。
     </div>
     <div>
-      If you have an active Big Crunch Autobuyer, it will attempt to Crunch
-      as soon as possible when reaching Infinite antimatter.
+      若自动大坍缩购买器已启用，其将在达到无限反物质后立刻试图大坍缩。
     </div>
     <ChallengeGrid
       v-slot="{ challenge }"

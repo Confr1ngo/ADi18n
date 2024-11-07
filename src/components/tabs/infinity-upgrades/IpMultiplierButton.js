@@ -44,14 +44,14 @@ export default {
     >
       <template v-if="isCapped">
         <br>
-        <span>(Capped at {{ quantify("Infinity Point", upgrade.config.costCap) }})</span>
+        <span>（于 {{ format(upgrade.config.costCap) }} IP 达到上限）</span>
       </template>
     </InfinityUpgradeButton>
     <PrimaryButton
       class="l--spoon-btn-group__little-spoon o-primary-btn--small-spoon"
       @click="buyMaxIPMult()"
     >
-      Max Infinity Point mult
+      购买最大数量无限点数倍增
     </PrimaryButton>
     <PrimaryToggleButton
       v-if="isAutoUnlocked"

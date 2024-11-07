@@ -20,8 +20,8 @@ export const zhCN = {
   "X_has_activated": "$1 已启动！",
   "X_in_this_reality": "当前现实中 $1",
   "X_of_total": "总量的 $1",
-  "X_per_hour": "$1 /小时",
-  "X_per_second": "$1 /秒",
+  "X_per_hour": "$1/hr",
+  "X_per_second": "$1/s",
   "X_presets_will_be_overwritten": "导入后将覆盖当前的预设时间研究树 $1",
   "X_prestige_has_not_occurred_yet_moving_to_line_Y_start_of_until_loop": "未进行$1，跳转至第 $2 行（until 循环的开始）",
   "X_prestige_has_occurred_exiting_until_loop": "已进行 $1，退出 until 循环",
@@ -488,10 +488,10 @@ export const zhCN = {
   "achievement_98_name": "无限零度",
   "achievement_98_tooltip": "解锁第八无限维度",
   "achievement_completed": "已完成",
-  "achievement_multiplier_ad": "反物质维度加成： $1",
-  "achievement_multiplier_ad_id": "反物质和无限维度加成： $1",
-  "achievement_multiplier_ad_id_td": "反物质，无限和时间维度： $1",
-  "achievement_multiplier_ad_td": "反物质和时间维度加成： $1",
+  "achievement_multiplier_ad": "反物质维度加成：$1",
+  "achievement_multiplier_ad_id": "反物质和无限维度加成：$1",
+  "achievement_multiplier_ad_id_td": "反物质，无限和时间维度：$1",
+  "achievement_multiplier_ad_td": "反物质和时间维度加成：$1",
   "achievement_multiplier_bh": "黑洞：$1",
   "achievement_multiplier_disabled": "已禁用所有成就的倍数加成",
   "achievement_multiplier_to": "当前成就提供以下倍数加成",
@@ -531,7 +531,7 @@ export const zhCN = {
   "after_X_Y": "$1之后：$2",
   "after_X_real_time": "现实时间经过 $1 后",
   "after_ad_bonus": "包含广告加成后的数量：",
-  "after_armageddon_X": "末日之后： $1",
+  "after_armageddon_X": "末日之后：$1",
   "alchemy_animation_X": "符文炼金：$1",
   "alchemy_disclaimer": "在符文页面中，你可以精炼符文。精炼符文时，符文将基于其最大精炼值的 $1 提供炼金资源。",
   "alchemy_disclaimer_reactions": "每进行一次现实，发生一次反应，不受利用储存的现实时间进行现实扩增的影响。",
@@ -629,8 +629,8 @@ export const zhCN = {
   "annihilation_multiplier": "所有的暗物质加成倍率:",
   "annihilation_requirement": "需要 $1 暗物质才能进行湮灭",
   "antimatter": "反物质",
-  "antimatter_X": "反物质数量： $1",
-  "antimatter_challenge_crunch_info": "如果启用自动大坍缩，不论采用何种设置，当反物质数量接近挑战目标时，它会尽全力强制进行一次大坍缩。",
+  "antimatter_X": "反物质数量：$1",
+  "antimatter_challenge_crunch_info": "如果启用自动大坍缩，不论采用何种设置，当反物质数量达到挑战目标时，它会立刻尝试进行一次大坍缩。",
   "antimatter_dimensions_about": "\t\t\t反物质维度 是一个具有多层重置机制、解锁隐藏要素和成就系统的放置类游戏。 \t\t\t游戏的基本目标是达到无限并获得无限点数。无限点数可用于多种能提升整体产出的升级项目。",
   "antimatter_dimension": "反物质维度",
   "antimatter_dimensions": "反物质维度",
@@ -640,7 +640,7 @@ export const zhCN = {
   "antimatter_plural": "反物质",
   "antimatter_short": "反物质",
   "appearance_options_for_X_glyphs": "$1 符文的外观选项",
-  "armageddon_confirmation_X": "末日： $1",
+  "armageddon_confirmation_X": "末日：$1",
   "armageddon_for_X_remnants": "末日后获得 $1 遗物现实碎片 $2 ➜ $3/s",
   "armageddon_reset_confirmation_1": "末日后将在此开启被毁灭的现实。你将在末日后获得 $1 遗物，每秒生产 $2 现实碎片。",
   "armageddon_reset_confirmation_2": "末日后将在此开启被毁灭的现实。你将在末日后获得 $1 遗物，生产现实碎片的速度从 $2/秒 增加到 $3/秒。",
@@ -706,9 +706,9 @@ export const zhCN = {
   "autobuyer_unlock_requirement": "需要 $1 反物质",
   "autobuyer_unlock_requirement_this_eternity": "要求：本次永恒中获得反物质的总量达到 $1",
   "autobuyer_upgrade_first_IP_disclaimer": "你不能使用第一个无限点来降低自动购买的间隔。",
-  "autobuyers_disabled": "自动购买器已禁用",
+  "autobuyers_disabled": "禁用所有自动购买器",
   "autobuyers_disabled_by_continuum": "连续统将取代自动购买反物质维度和计数频率的功能，你将基于你的购买次数，自动获得连续的生产倍率加成。",
-  "autobuyers_enabled": "自动购买器已启用",
+  "autobuyers_enabled": "启用所有自动购买器",
   "automatic_big_crunch": "自动大坍缩",
   "automatic_dimboosts": "自动进行维度提升",
   "automatic_eternity": "自动永恒",
@@ -872,7 +872,7 @@ export const zhCN = {
   "buy_max": "购买最大数量",
   "buy_max_theorems": "购买最大数量的时间之理",
   "buy_more": "购买更多",
-  "buy_ten_multiplier": "购买10个的加成倍数： $1",
+  "buy_ten_multiplier": "购买10个的加成倍数：$1",
   "buy_time_theorems": "购买时间之理",
   "buys_max": "购买最大数量",
   "buys_singles": "购买单个",
@@ -910,7 +910,7 @@ export const zhCN = {
   "challenge_display_no_active_challenges": "你现在在反物质宇宙中",
   "challenge_failed_disclaimer": "挑战失败，你已退出挑战。",
   "challenge_not_completed": "$1 尚未完成",
-  "challenge_record": "$1 时间纪录： $2",
+  "challenge_record": "$1 时间纪录：$2",
   "change_challenge_confirmation": "您确定要退出此挑战，并进入 $1 吗？",
   "change_glyph_rng_seed": "更换符文随机种子",
   "changelog_title": "更新日志",
@@ -932,7 +932,7 @@ export const zhCN = {
   "checked_X_true_moving_to_line_Y_start_of_loop": "条件 $1 为真，跳转到第 $2 行（开始循环）",
   "choose_cosmetic_set": "选择一组符文皮肤",
   "choose_set": "选择符文皮肤",
-  "chosen_set_X": "已选择： $1",
+  "chosen_set_X": "已选择：$1",
   "clear_glyph_flags": "清除“新！”",
   "clear_named_study_preset_confirmation": "你确定要清除槽位 $2 的预设时间研究树“$1”吗？",
   "clear_preset": "清除",
@@ -1002,22 +1002,22 @@ export const zhCN = {
   "continuum_disabled": "连续统已禁用",
   "continuum_enabled": "连续统已启用",
   "copy_toast_msg": "链接已复制到剪贴板",
-  "cost_X": "价格： $1",
-  "cost_X_currency": "价格： $1 $2",
-  "cost_X_dark_energy_short": "价格： $1 暗能量",
-  "cost_X_dark_matter_short": "价格： $1 暗物质",
-  "cost_X_dilated_time_short": "价格： $1 膨胀时间",
-  "cost_X_eternity_points_short": "价格： $1 永恒点数",
-  "cost_X_imaginary_machines_short": "价格： $1 虚幻机器",
-  "cost_X_infinity_points_short": "价格： $1 无限点数",
-  "cost_X_perk_points_short": "价格： $1 复兴点数",
-  "cost_X_reality_machines_short": "价格： $1 现实机器",
-  "cost_X_relic_shards_short": "价格： $1 遗迹碎片",
-  "cost_X_singularities_short": "价格： $1 奇点",
-  "cost_X_space_theorems_short": "价格： $1 空间之理",
+  "cost_X": "价格：$1",
+  "cost_X_currency": "价格：$1 $2",
+  "cost_X_dark_energy_short": "价格：$1 暗能量",
+  "cost_X_dark_matter_short": "价格：$1 暗物质",
+  "cost_X_dilated_time_short": "价格：$1 膨胀时间",
+  "cost_X_eternity_points_short": "价格：$1 永恒点数",
+  "cost_X_imaginary_machines_short": "价格：$1 虚幻机器",
+  "cost_X_infinity_points_short": "价格：$1 无限点数",
+  "cost_X_perk_points_short": "价格：$1 复兴点数",
+  "cost_X_reality_machines_short": "价格：$1 现实机器",
+  "cost_X_relic_shards_short": "价格：$1 遗迹碎片",
+  "cost_X_singularities_short": "价格：$1 奇点",
+  "cost_X_space_theorems_short": "价格：$1 空间之理",
   "cost_X_time_and_space_theorems_short": "$1 时间之理和$2 空间之理",
-  "cost_X_time_theorems_short": "价格： $1 时间之理",
-  "cost_of_missing_studies": "缺少的时间研究需要： $1 时间之理",
+  "cost_X_time_theorems_short": "价格：$1 时间之理",
+  "cost_of_missing_studies": "缺少的时间研究需要：$1 时间之理",
   "could_not_find_a_preset_with_an_id_of_X": "找不到序号为 $1 的时间研究预设",
   "could_not_find_preset_named_X_note_names_are_case_sensitive": "找不到名称为 [$1] 的时间研究预设 （注意：名称区分大小写）",
   "couldnt_export_script": "无法导出空白自动机脚本",
@@ -1100,7 +1100,7 @@ export const zhCN = {
   "deleting_companion_3": "恭喜，你移除同伴符文的速度超过了此前所有的测试者。",
   "describe_all_milestones_X": "里程碑说明：$1",
   "destroyed_by_pelle": "已被佩勒毁灭",
-  "dialog_animations": "对话框： 关闭|对话框： 滑动|对话框： 渐隐",
+  "dialog_animations": "对话框：关闭|对话框：滑动|对话框：渐隐",
   "dilate_time": "进入时间膨胀",
   "dilated_time": "膨胀时间",
   "dilated_time_increased_from_X_to_Y": "膨胀时间 从 $1 增加到 $2",
@@ -1149,7 +1149,7 @@ export const zhCN = {
   "dimension_locked_dimboost": "维度提升达到 $1",
   "dimension_names_short": "第一维度|第二维度|第三维度|第四维度|第五维度|第六维度|第七维度|第八维度",
   "dimension_names_shorter": "第一维度|第二维度|第三维度|第四维度|第五维度|第六维度|第七维度|第八维度",
-  "dimension_split": "维度路径： $1",
+  "dimension_split": "维度路径：$1",
   "dimension_split_preference": "优先维度路径",
   "dimension_tap_to_see_cost_info": "点击锁定的维度按钮可查看它的价格。",
   "disable_all_reactions": "禁用所有反应",
@@ -1308,7 +1308,7 @@ export const zhCN = {
   "error_list": "错误列表",
   "error_on_line_X_Y": "第 $1 行出现错误：$2",
   "eternities": "永恒次数",
-  "eternities_X": "永恒次数： $1",
+  "eternities_X": "永恒次数：$1",
   "eternities_increased_from_X_to_Y": "永恒次数 从 $1 增加到 $2",
   "eternity_autobuyer_not_unlocked": "未解锁自动永恒",
   "eternity_challenge_X": "永恒挑战：$1",
@@ -1317,12 +1317,12 @@ export const zhCN = {
   "eternity_challenge_info": "再次完成永恒挑战以获得更大的奖励，最多不超过 $1 次。奖励永久有效，无需购买对应的时间研究。",
   "eternity_challenge_info2": "当你在解锁永恒挑战之后重置时间研究树，在完成永恒挑战之前，无需重新完成解锁永恒挑战的第二个要求，只需要花费时间之理即可再次解锁。",
   "eternity_confirmation_1": "永恒将重置除成就、挑战纪录、统计标签页“概况”中的内容以外所有的游戏进度。你将获得 1 永恒点数，并解锁大量的升级。",
-  "eternity_confirmation_X": "永恒： $1",
+  "eternity_confirmation_X": "永恒：$1",
   "eternity_confirmation_title": "你确定要进行永恒吗？",
   "eternity_felt": "已感受永恒",
   "eternity_for_X_ep": "获得 |$1| 永恒点数",
   "eternity_points": "永恒点数",
-  "eternity_points_X": "永恒点数： $1",
+  "eternity_points_X": "永恒点数：$1",
   "eternity_points_increased_from_X_to_Y": "永恒点数 从 $1 增加到 $2",
   "eternity_points_short": "永恒点数",
   "eternity_to_complete_challenge_large": "永恒以完成挑战",
@@ -1469,9 +1469,9 @@ export const zhCN = {
   "galaxy_generator_upgrade_0_description": "星系生成器的产量基数加 2",
   "galaxy_generator_upgrade_1_description": "星系产量倍率",
   "galaxy_types": "反物质星系（$1）|遥远星系（$1）|极远星系（$1）",
-  "game_speed_X": "游戏速度： $1",
+  "game_speed_X": "游戏速度：$1",
   "gamespeed_and_multipliers_are_dilated": "游戏速度和倍率加成是原来的$1",
-  "gamespeed_display": "游戏速度倍率： $1",
+  "gamespeed_display": "游戏速度倍率：$1",
   "gamespeed_display_default": "游戏目前以正常速度运行。",
   "get_X_ap_to_unlock_automator": "获取 $1 / $2 自动点数以解锁自动机",
   "getting_rid_of_all_that_RIFT": "除去所有的 $1…",
@@ -1610,7 +1610,7 @@ export const zhCN = {
   "glyph_effect_25_total": "所有维度 ^{1}",
   "glyph_effect_26_generic": "反物质产量指数",
   "glyph_effect_26_short": "反物质产量指数 ^{1}",
-  "glyph_effect_26_single": "反物质产量： $1^x ➜ $2^(x^{1})",
+  "glyph_effect_26_single": "反物质产量：$1^x ➜ $2^(x^{1})",
   "glyph_effect_27_short": "基础符文等级 +{1}",
   "glyph_effect_27_single": "已装备的基础符文等级增加 {1}",
   "glyph_effect_27_total": "已装备的基础符文等级 +{1}",
@@ -1734,7 +1734,7 @@ export const zhCN = {
   "glyph_type_names": "力量|无限|复制|时间|膨胀|鹿颈长|现实|诅咒|同伴|音乐",
   "glyph_ui_options": "符文界面选项：",
   "glyph_undo_confirmation_X": "撤销符文装备：$1",
-  "glyph_undo_info_1": "你将卸下在当前现实中安装的最后一个符文。本次现实将重新开始，不过部分游戏内资源的数量将回滚到安装最后一个符文时的数值： - 反物质、无限点数、永恒点数 - 膨胀升级、超光速粒子、膨胀时间 - 时间之理、永恒挑战完成次数 - 时间维度和现实的解锁状态 - 无限/永恒/现实后经历的时间",
+  "glyph_undo_info_1": "你将卸下在当前现实中安装的最后一个符文。本次现实将重新开始，不过部分游戏内资源的数量将回滚到安装最后一个符文时的数值：- 反物质、无限点数、永恒点数 - 膨胀升级、超光速粒子、膨胀时间 - 时间之理、永恒挑战完成次数 - 时间维度和现实的解锁状态 - 无限/永恒/现实后经历的时间",
   "glyph_undo_info_2": " - 储存的游戏内时间",
   "glyph_undo_info_3": "请注意，如果你使某些成就或升级的特殊要求无效（例如完成一个不产生反物质的现实成就），即使撤销之后，它们仍将保持无效。在这些情况下，你需要在单次现实中完成条件而不使用撤销符文。",
   "glyph_undo_title": "你将要卸下一个已装备的符文",
@@ -1755,7 +1755,7 @@ export const zhCN = {
   "hide_hard_v": "隐藏困难的薇挑战",
   "hide_pelle_upgrades_toggle": "显示已购买的升级|隐藏已购买的升级",
   "hide_tabs_X": "隐藏标签页$1",
-  "high_contrast_rarity_colors_X": "符文稀有度采用高对比度配色： $1",
+  "high_contrast_rarity_colors_X": "符文稀有度采用高对比度配色：$1",
   "highest_active_dimension": "可用的最高维度：$1",
   "hold_to_start": "长按以开始",
   "hour_short": "时",
@@ -1772,10 +1772,10 @@ export const zhCN = {
   "htp_break_infinity": "\t\t\t起初反物质维度受到“无限”限制。 自一个重要的更新以来，你现在可以在自动大坍缩的时间间隔达到最小值后“打破无限”。 这开启了新的升级，并且每次运行能够获得超过1个无限点。",
   "htp_break_infinity_title": "打破无限",
   "htp_celestials_title": "天神",
-  "htp_challenges": "\t\t\t挑战在第一次无限后解锁。 它们以不同方式改变游戏内的机制，以造成更加困难的游戏环境。 \t\t\t每次完成挑战，都将解锁一个自动购买器或解锁升级自动购买器的能力。 你可以单击\"完成\"按钮或启用\"自动重试挑战\"选项来多次进行挑战(第一个挑战除外)。 只有第一次挑战完成才能获得奖励。挑战可以随时通过挑战选项卡中的“退出挑战”按钮退出。 \t\t\t最底端的四个无限升级在挑战中无效。 \t\t\t小贴士： 挑战确认对话框可以在选项中关闭。",
+  "htp_challenges": "\t\t\t挑战在第一次无限后解锁。 它们以不同方式改变游戏内的机制，以造成更加困难的游戏环境。 \t\t\t每次完成挑战，都将解锁一个自动购买器或解锁升级自动购买器的能力。 你可以单击\"完成\"按钮或启用\"自动重试挑战\"选项来多次进行挑战(第一个挑战除外)。 只有第一次挑战完成才能获得奖励。挑战可以随时通过挑战选项卡中的“退出挑战”按钮退出。 \t\t\t最底端的四个无限升级在挑战中无效。 \t\t\t小贴士：挑战确认对话框可以在选项中关闭。",
   "htp_challenges_title": "挑战",
   "htp_continuum_title": "连续统",
-  "htp_dimboost": "\t\t\t维度提升： 这将重置你所有的维度和反物质数量， 但解锁下一个维度。你可以购买新的维度进而提升维度的加成倍数。 第一次维度提升需要 20 个第四维度，第二次则需要 20 个第五维度。 解锁所有8个维度后，每次维度提升的价格都会增加 15 个第八维度，这些维度提升不会解锁新的维度， 但将继续增加维度的加成倍数。 \t\t\t\t每当你进行一次维度提升后，第一维度的倍数加成变为原来的 2 倍。 每个较高的维度都会比以前少一次倍数加成，最低值为零。 举个例子，如果你进行了 3 次维度提升，第一维度将获得 8 倍的加成，第二维度将获得 4 倍的加成，第三维度将获得 2 倍的加成，其他的维度都不受影响。",
+  "htp_dimboost": "\t\t\t维度提升：这将重置你所有的维度和反物质数量， 但解锁下一个维度。你可以购买新的维度进而提升维度的加成倍数。 第一次维度提升需要 20 个第四维度，第二次则需要 20 个第五维度。 解锁所有8个维度后，每次维度提升的价格都会增加 15 个第八维度，这些维度提升不会解锁新的维度， 但将继续增加维度的加成倍数。 \t\t\t\t每当你进行一次维度提升后，第一维度的倍数加成变为原来的 2 倍。 每个较高的维度都会比以前少一次倍数加成，最低值为零。 举个例子，如果你进行了 3 次维度提升，第一维度将获得 8 倍的加成，第二维度将获得 4 倍的加成，第三维度将获得 2 倍的加成，其他的维度都不受影响。",
   "htp_dimboost_title": "维度提升",
   "htp_dimensions": "\t\t\t维度是游戏中的生产单位。第一维度产生反物质。每个维度产生前一个维度，使你能够获得反物质数量的稳定增长。总共有八个维度。（译者注：第n维度与第n反物质维度是同义词） \t\t\t维度倍数加成：在每个维度下方都有一个倍数加成（例如：第一维度 x1.0）。每个维度的产量等于基础产量与倍数的数字相乘。每购买10个同一维度，此维度的倍数数值（基础值）就会增加2倍。每购买10个同一维度，该维度的价格都会增加。 \t\t\t累计维度数量：下一列是你当前拥有的该维度的数量。这是你用反物质购买以及更高维度生产数量的总和。 \t\t\t维度增长百分比：仅在“设置”中启用时，才会显示此数字。它代表此维度每秒的增长量。+100％表示数量每秒增加一倍。这使你可以判断整体增长情况。 \t\t\t已购买的维度数量：所有维度购买按钮中都有一个绿色的进度条，显示了从上次倍数加成增长以来你已购买了多少该维度。还有一个较亮的长条显示你目前可以购买多少。 \t\t\t小贴士：你可以按住维度购买按钮以更快地购买它们。或者你也可以按住“最大化”按钮，此时还会提升计数频率。 \t\t\t维度基础价格：10、100、1e4、1e6、1e9、1e13、1e18、1e24 \t\t\t维度基础价格倍数：1e3、1e4、1e5、1e6、1e8、1e10、1e12、1e15 \t\t\t维度价格增加：每次购买10个同一维度时，其价格都会乘以其价格倍数。此外，每当购买10个同一维度且其价格大于无限时，其价格倍数会与无限后维度增加的价格倍数（初始为10，可以降低）相乘。",
   "htp_dimensions_title": "维度",
@@ -1786,11 +1786,11 @@ export const zhCN = {
   "htp_effarig_text_4": "鹿颈长符文当前最多只能拥有 $1 个词条，在同一个鹿颈长符文上，现实机器倍增和符文不稳定性这两个词条不能同时出现。",
   "htp_effarig_text_5": "(完成鹿颈长的现实以查看奖励详情)",
   "htp_effarig_title": "古代遗迹之神鹿颈长",
-  "htp_eternity": "\t\t\t当你达到1.79e308个无限点后，你可以选择进行永恒。 永恒将重置所有的东西，除挑战时间纪录、成就和生产的反物质总数。你还将解锁一个新标签页。 \t\t\t进行永恒时的无限点越多，获得的永恒点越多。 \t\t\t小贴士： 永恒确认对话框可以在选项中关闭。",
+  "htp_eternity": "\t\t\t当你达到1.79e308个无限点后，你可以选择进行永恒。 永恒将重置所有的东西，除挑战时间纪录、成就和生产的反物质总数。你还将解锁一个新标签页。 \t\t\t进行永恒时的无限点越多，获得的永恒点越多。 \t\t\t小贴士：永恒确认对话框可以在选项中关闭。",
   "htp_eternity_title": "永恒",
-  "htp_faq": "屏幕右下方的“最大”按钮是什么？ \t\t\t“最大”按钮可以让你在按住它时购买最大数量的计数频率和反物质维度，但它一次只能购买10个或更多的维度。你可以在“选项”中隐藏它。 有什么方法可以减少屏幕闪烁？ \t\t\t在游戏中，癫痫患者可能会受到负面影响。为防止屏幕闪烁，你可以转到选项并启用省电模式。这将使UI更新速度减慢至每秒一次，而游戏更新速率将保持不变，始终为25ms。 启用省电模式会禁用新闻栏。如果要启用新闻栏，则需要禁用省电模式，然后在“选项”-“界面”-“顶部”栏中选择“新闻”。 哪一个更好？反物质星系还是维度提升？ \t\t\t星系总是更好的。 反物质星系如何工作？ \t\t\t每次购买计数频率都会使反物质维度加快 1.1245 倍。如果购买了一个星系，则每次购买计数频率都会使反物质维度加快 1.1445 倍。这看起来似乎并不多，但是在购买 100 次计数频率时，使用1个星系获得的反物质速度比没有使用星系时要快 1333736 倍。 什么时候进行维度献祭？ \t\t\t献祭加成超过 2.00倍 且你刚刚购买了 10 个第八维度的时候是较为理想的。 进度条有什么作用？ \t\t\t表示距离无限反物质的百分比。此百分比是对数的，因此 100％ 表示 1.79e308 反物质，而 50％ 仅为 1.34e154 反物质。 无限的数量是多少？ \t\t\t1.79e308 (2^1024) 或者更精确地说： 179769313486231590772930519078902473361797697894230657273430081157732675805500963132708477322407536021120113879871393357658789768814416622492847430639474124377767893424865485276302219601246094119453082952085005768838150682342462881473913110540827237163350510684586298239947245938479716304835356329624224137216 如何获得游戏的离线进度以及什么是离线时间间隔？ \t\t\t简略版：更高的“最大离线时间间隔”意味着更加精确的离线进度，但进入游戏后需要花更多的时间进行计算。\t\t\t每次进入游戏时，游戏都会进行计算离线的时间，并将其划分为几个部分，称为“离线时间间隔”，每个时间间隔至少要长 50 毫秒(这意味着，如果你仅离线 5 秒，则只会获得 100 个离线时间间隔)。每一次时间间隔都会给予你该时间间隔的产量，如果有可能，你的自动购买器就会进行自动购买，重复进行直到所有离线进度模拟完毕。\t\t\t最大离线时间间隔可以在选项中从 1000（默认值）增加到 1000000（一百万）个时间间隔。这样做将使自动购买器在离线时购买频率更高，从而使离线进度更接近在线进度，1000000（一百万）个时间间隔达到14个小时的进度，而 1000 个时间间隔则进度只有 50 秒，最大离线时间间隔调高的缺点是打开后需要等待更长的时间。\t\t\t在计算离线进度时按“加速”后，剩余进度最多以 1000 个时间间隔进行计算。",
+  "htp_faq": "屏幕右下方的“最大”按钮是什么？ \t\t\t“最大”按钮可以让你在按住它时购买最大数量的计数频率和反物质维度，但它一次只能购买10个或更多的维度。你可以在“选项”中隐藏它。 有什么方法可以减少屏幕闪烁？ \t\t\t在游戏中，癫痫患者可能会受到负面影响。为防止屏幕闪烁，你可以转到选项并启用省电模式。这将使UI更新速度减慢至每秒一次，而游戏更新速率将保持不变，始终为25ms。 启用省电模式会禁用新闻栏。如果要启用新闻栏，则需要禁用省电模式，然后在“选项”-“界面”-“顶部”栏中选择“新闻”。 哪一个更好？反物质星系还是维度提升？ \t\t\t星系总是更好的。 反物质星系如何工作？ \t\t\t每次购买计数频率都会使反物质维度加快 1.1245 倍。如果购买了一个星系，则每次购买计数频率都会使反物质维度加快 1.1445 倍。这看起来似乎并不多，但是在购买 100 次计数频率时，使用1个星系获得的反物质速度比没有使用星系时要快 1333736 倍。 什么时候进行维度献祭？ \t\t\t献祭加成超过 2.00倍 且你刚刚购买了 10 个第八维度的时候是较为理想的。 进度条有什么作用？ \t\t\t表示距离无限反物质的百分比。此百分比是对数的，因此 100％ 表示 1.79e308 反物质，而 50％ 仅为 1.34e154 反物质。 无限的数量是多少？ \t\t\t1.79e308 (2^1024) 或者更精确地说：179769313486231590772930519078902473361797697894230657273430081157732675805500963132708477322407536021120113879871393357658789768814416622492847430639474124377767893424865485276302219601246094119453082952085005768838150682342462881473913110540827237163350510684586298239947245938479716304835356329624224137216 如何获得游戏的离线进度以及什么是离线时间间隔？ \t\t\t简略版：更高的“最大离线时间间隔”意味着更加精确的离线进度，但进入游戏后需要花更多的时间进行计算。\t\t\t每次进入游戏时，游戏都会进行计算离线的时间，并将其划分为几个部分，称为“离线时间间隔”，每个时间间隔至少要长 50 毫秒(这意味着，如果你仅离线 5 秒，则只会获得 100 个离线时间间隔)。每一次时间间隔都会给予你该时间间隔的产量，如果有可能，你的自动购买器就会进行自动购买，重复进行直到所有离线进度模拟完毕。\t\t\t最大离线时间间隔可以在选项中从 1000（默认值）增加到 1000000（一百万）个时间间隔。这样做将使自动购买器在离线时购买频率更高，从而使离线进度更接近在线进度，1000000（一百万）个时间间隔达到14个小时的进度，而 1000 个时间间隔则进度只有 50 秒，最大离线时间间隔调高的缺点是打开后需要等待更长的时间。\t\t\t在计算离线进度时按“加速”后，剩余进度最多以 1000 个时间间隔进行计算。",
   "htp_faq_title": "常见问题",
-  "htp_galaxy": "\t\t\t购买反物质星系会将游戏重置回只有4个反物质维度可用的程度，但对于前两个星系，你的计数频率升级效果会提高+0.02。随着获得更多的星系，乘数将变得越来越大。 \t\t\t尽管对最初购买的计数频率的影响很小，但这种增加是成倍的，不会花很长时间就可以看到效果。 \t\t\t价格： 你的第一个反物质星系需要80个第八反物质维度。 此后每个星系的需求增加60个第八维度。 \t\t\t遥远星系价格增加： 超过 100个反物质星系时，则每个星系的第八维度价格将增加2个，使下一个星系的价格增加62个，然后增加64个，以此类推 \t\t\t极远星系价格增加： 800个反物质星系时， 星系总价格 再增加0.2%。",
+  "htp_galaxy": "\t\t\t购买反物质星系会将游戏重置回只有4个反物质维度可用的程度，但对于前两个星系，你的计数频率升级效果会提高+0.02。随着获得更多的星系，乘数将变得越来越大。 \t\t\t尽管对最初购买的计数频率的影响很小，但这种增加是成倍的，不会花很长时间就可以看到效果。 \t\t\t价格：你的第一个反物质星系需要80个第八反物质维度。 此后每个星系的需求增加60个第八维度。 \t\t\t遥远星系价格增加：超过 100个反物质星系时，则每个星系的第八维度价格将增加2个，使下一个星系的价格增加62个，然后增加64个，以此类推 \t\t\t极远星系价格增加：800个反物质星系时， 星系总价格 再增加0.2%。",
   "htp_galaxy_title": "反物质星系",
   "htp_galgen_title": "星系生成器",
   "htp_glyphs_title": "符文",
@@ -1798,7 +1798,7 @@ export const zhCN = {
   "htp_infinity": "\t\t\t一旦你有太多的反物质(2^1024)，你会到达无限状态并能够执行\"大坍缩\"。 \t\t\t每次达到无限都会获得一个无限点。 这些可以用于在新的无限升级选项卡中升级。你必须从上到下购买这些升级。 \t\t\t何时应该尝试无限？ 建议获得2星系，再尝试达到无限。 你应该尽可能多地进行维度提升。",
   "htp_infinity_challenges": "\t\t\t无限挑战就像常规挑战一样。 但它们有较高的最终目标，通常比普通的挑战更难(但有不同的奖励)。 \t\t\t它们会在设定的反物质时解锁，靠后解锁的挑战(一般而言) 更加困难。",
   "htp_infinity_challenges_title": "无限挑战",
-  "htp_infinity_dimensions": "\t\t\t解锁无限维度： 无限维度会通过达到一定数量的反物质解锁。 \t\t\t无限维度价格： 无限维度只能一次购买10个，需要花费无限点进行购买。 \t\t\t无限维度生产： 类似于反物质维度， 每个无限维度产生低一级的无限维度。 第三无限维度生成第二无限维度。第二无限维度生产第一无限维度。第一无限维度产生无限之力，而不是反物质，无限之力使所有反物质维度都获得一个倍数加成。 \t\t\t无限之力 能够给予所有反物质维度倍数加成(无限之力^7)。",
+  "htp_infinity_dimensions": "\t\t\t解锁无限维度：无限维度会通过达到一定数量的反物质解锁。 \t\t\t无限维度价格：无限维度只能一次购买10个，需要花费无限点进行购买。 \t\t\t无限维度生产：类似于反物质维度， 每个无限维度产生低一级的无限维度。 第三无限维度生成第二无限维度。第二无限维度生产第一无限维度。第一无限维度产生无限之力，而不是反物质，无限之力使所有反物质维度都获得一个倍数加成。 \t\t\t无限之力 能够给予所有反物质维度倍数加成(无限之力^7)。",
   "htp_infinity_dimensions_title": "无限维度",
   "htp_infinity_title": "无限",
   "htp_laitela_title": "维度之神莱特拉",
@@ -1819,8 +1819,8 @@ export const zhCN = {
   "htp_ra_text_5": "（在太阳神中解锁薇以查看详情）",
   "htp_ra_title": "遗忘之神太阳神",
   "htp_reality_title": "现实",
-  "htp_replicanti": "\t\t\t复制器是一种在 1e140 无限点数时解锁的资源，并给所有无限维度提供加成。复制器本身不会产生其他东西，它最多只会生产 1.80e308 个复制器本身。复制器按照它自己的速度生产其本身，这个速度不会受到计数频率升级的影响。每个复制器有一定的概率（初始为1%)在一定的时间间隔内复制一次（初始为每秒复制一次)。使用无限点数可以提升复制概率和降低复制的时间间隔。 \t\t\t当复制器的数量达到 1.80e308 时，你可以用所有的复制器交换一个复制器星系。这种星系的运作方式与反物质星系相同，它们能提高计数频率升级的效果，但它不会提高下一个反物质星系的价格。你的复制器星系数量存在上限，可以使用无限点数提升复制器星系的数量上限。 \t\t\t提示： 你可以按住“重置复制器数量”按钮以更快购买复制器星系。 \t\t\t复制概率升级价格： 第一次为 1e150 无限点数,每次升级价格增加 1e15 倍。 \t\t\t复制间隔升级价格： 第一次为 1e140 无限点数,每次升级价格增加 1e10 倍。 \t\t\t复制器星系上限升级价格： 第一次为 1e170 无限点数,第 n 次升级的价格如下所示:当 n 大于等于 1 且小于等于 101 时，升级价格为 1e(150+n*25+2.5*n^2) 无限点数；当 n 大于 101 时且小于等于 1001 时，升级价格为 1e(232450-4807.5*n+27.5*n^2) 无限点数；当 n 大于等于 1001 时，升级价格为 1e[5*k*(k*(k+15)+30116)/3+22924950] 无限点数，其中 k=n-1000。",
-  "htp_sacrifice": "\t\t\t你在第 5 次维度提升后解锁维度献祭。 \t\t\t维度献祭将立即将反物质维度1至7 减少为零。这不会降低加成倍数或当前价格。此外，它将使第8维度获得倍数加成。 回到你以前的生产速度将需要一定时间，但最终会出现净增长。 \t\t\t何时应该进行维度献祭？ 最好当献祭加成大于 2，和刚刚购买了十个第八维度时。 \t\t\t小贴士： 维度献祭确认对话框可以在选项中关闭。",
+  "htp_replicanti": "\t\t\t复制器是一种在 1e140 无限点数时解锁的资源，并给所有无限维度提供加成。复制器本身不会产生其他东西，它最多只会生产 1.80e308 个复制器本身。复制器按照它自己的速度生产其本身，这个速度不会受到计数频率升级的影响。每个复制器有一定的概率（初始为1%)在一定的时间间隔内复制一次（初始为每秒复制一次)。使用无限点数可以提升复制概率和降低复制的时间间隔。 \t\t\t当复制器的数量达到 1.80e308 时，你可以用所有的复制器交换一个复制器星系。这种星系的运作方式与反物质星系相同，它们能提高计数频率升级的效果，但它不会提高下一个反物质星系的价格。你的复制器星系数量存在上限，可以使用无限点数提升复制器星系的数量上限。 \t\t\t提示：你可以按住“重置复制器数量”按钮以更快购买复制器星系。 \t\t\t复制概率升级价格：第一次为 1e150 无限点数,每次升级价格增加 1e15 倍。 \t\t\t复制间隔升级价格：第一次为 1e140 无限点数,每次升级价格增加 1e10 倍。 \t\t\t复制器星系上限升级价格：第一次为 1e170 无限点数,第 n 次升级的价格如下所示:当 n 大于等于 1 且小于等于 101 时，升级价格为 1e(150+n*25+2.5*n^2) 无限点数；当 n 大于 101 时且小于等于 1001 时，升级价格为 1e(232450-4807.5*n+27.5*n^2) 无限点数；当 n 大于等于 1001 时，升级价格为 1e[5*k*(k*(k+15)+30116)/3+22924950] 无限点数，其中 k=n-1000。",
+  "htp_sacrifice": "\t\t\t你在第 5 次维度提升后解锁维度献祭。 \t\t\t维度献祭将立即将反物质维度1至7 减少为零。这不会降低加成倍数或当前价格。此外，它将使第8维度获得倍数加成。 回到你以前的生产速度将需要一定时间，但最终会出现净增长。 \t\t\t何时应该进行维度献祭？ 最好当献祭加成大于 2，和刚刚购买了十个第八维度时。 \t\t\t小贴士：维度献祭确认对话框可以在选项中关闭。",
   "htp_sacrifice_title": "维度献祭",
   "htp_strikes_text_0": "衰变/崩溃/无序 裂痕不受影响。当你在所有的裂痕中填充了 $1 复制器后，衰变/崩溃/无序的效果始终为最大值。",
   "htp_strikes_title": "佩勒冲击",
@@ -1833,27 +1833,27 @@ export const zhCN = {
   "htp_tickspeed": "\t\t\t时间间隔：游戏中的生产发生在每个“时间间隔”上，该“时间间隔”最初每秒发生一次。通过购买计数频率升级，你可以使反物质维度的生产速度更快，就像每秒内发生了多个时间间隔一样。 \t\t\t计数频率：这表示每秒发生多少个游戏时间间隔。分数个时间间隔被考虑在内，提升生产效率时就好像游戏时间间隔的一部分已经过去了一样。 \t\t\t价格：花费反物质将时间间隔/秒乘以显示的倍数。(没有任何星系时，每次购买为1.1245倍) \t\t\t购买最多：这将购买你当前数量的反物质所能购买的最大数量的计数频率升级。 \t\t\t计数频率初始价格：1000 \t\t\t计数频率初始价格倍增：10 \t\t\t计数频率价格增长：每次购买计数频率时，其价格都会乘以其倍数。此外，每次购买计数频率的价格大于无限时，其价格倍数就会乘以无限后的计数频率价格倍数(始于10，可以降低)。 \t\t\t请注意，实际的“计数频率”时间是假的，游戏始终以每秒40次计数频率的速度运行，“计数频率”仅充当反物质维度的倍数。",
   "htp_tickspeed_title": "计数频率",
   "htp_time_dilation_title": "时间膨胀",
-  "htp_time_dimensions": "\t\t\t第一次永恒后，你将解锁时间维度。 你可以用永恒点数购买它们，它们提供时间碎片，时间碎片产生计数频率升级。 这些计数频率升级的作用与通常的计数频率升级相同，但价格不会提高。 这些计数频率升级在无限之后不会重置，但是在永恒之后重置。 \t\t\t时间维度与其他维度相似， 第二个时间维度生产第一个时间维度，依此类推。 与无限维度类似的是，时间维度的数量在永恒之后重置为购买的数量，但购买获得的倍数加成不会重置。 \t\t\t每购买一次时间维度，对应时间维度的倍数加成变为原来的 4 倍。 时间维度的价格倍增有一个基本值，在超过 1.80e308 永恒点数后这一数值变为原来的 1.5 倍，在超过 1e1300 永恒点数后这一数值变为原来的 2.2 倍。 这两种效果是同时生效的，导致在达到这些阈值以后，价格发生大幅增长，这种增长只会在前四个时间维度上发生。 超过 1e6000EP 之后，每次购买时间维度，购买次数的增量变为原来的 4 倍，目的是提高时间维度的价格，大幅提高价格增长的幅度。 \t\t\t到达这些阈值以后，获得计数频率升级所需要的时间碎片会增加 33%, 若有相关时间研究则增加 25%. 当获得 40 万个升级之后，两个免费计数频率升级所需时间碎片的倍率将会逐渐增加，每5万次升级增加 1.35 倍（每次升级增加 1.000006 倍）。 \t\t\t时间维度基本价格（永恒点数）： 1, 5, 100, 1e3, 1e2350, 1e2650, 1e3000, 1e3350 \t\t\t时间维度基本价格增量： 3, 9, 27, 81, 2e4, 7e4, 2e5, 7e5",
+  "htp_time_dimensions": "\t\t\t第一次永恒后，你将解锁时间维度。 你可以用永恒点数购买它们，它们提供时间碎片，时间碎片产生计数频率升级。 这些计数频率升级的作用与通常的计数频率升级相同，但价格不会提高。 这些计数频率升级在无限之后不会重置，但是在永恒之后重置。 \t\t\t时间维度与其他维度相似， 第二个时间维度生产第一个时间维度，依此类推。 与无限维度类似的是，时间维度的数量在永恒之后重置为购买的数量，但购买获得的倍数加成不会重置。 \t\t\t每购买一次时间维度，对应时间维度的倍数加成变为原来的 4 倍。 时间维度的价格倍增有一个基本值，在超过 1.80e308 永恒点数后这一数值变为原来的 1.5 倍，在超过 1e1300 永恒点数后这一数值变为原来的 2.2 倍。 这两种效果是同时生效的，导致在达到这些阈值以后，价格发生大幅增长，这种增长只会在前四个时间维度上发生。 超过 1e6000EP 之后，每次购买时间维度，购买次数的增量变为原来的 4 倍，目的是提高时间维度的价格，大幅提高价格增长的幅度。 \t\t\t到达这些阈值以后，获得计数频率升级所需要的时间碎片会增加 33%, 若有相关时间研究则增加 25%. 当获得 40 万个升级之后，两个免费计数频率升级所需时间碎片的倍率将会逐渐增加，每5万次升级增加 1.35 倍（每次升级增加 1.000006 倍）。 \t\t\t时间维度基本价格（永恒点数）：1, 5, 100, 1e3, 1e2350, 1e2650, 1e3000, 1e3350 \t\t\t时间维度基本价格增量：3, 9, 27, 81, 2e4, 7e4, 2e5, 7e5",
   "htp_time_dimensions_title": "时间维度",
-  "htp_time_studies": "\t\t\t时间研究 是一种强大的后期升级， 花费时间之理。 时间研究以一种类似科技树的方式进行，在购买之前你必须购买前置的时间研究。 \t\t\t时间之理 是一种有限的资源，购买时间之理的价格随购买次数的增加而提高。 它们可以用反物质、无限点数和永恒点数购买。 \t\t\t重置研究树：重置研究树允许你重置研究树上的升级，以收回花在它们上的时间之理。 它可以在永恒时重置研究树，同时给你重新分配时间定理的机会。 \t\t\t时间之理的价格： (1e20000^(购买的次数+1)) 反物质，(1e100^购买的次数) 无限点数， (2^购买次数) 永恒点数。 \t\t\t小贴士： 你可以在选项中设置是否显示时间研究的号码。 \t\t\t小贴士： 你可以按住一个时间研究按钮购买直到这个时间研究为止的所有时间研究。 当你只能从多个路径中选择一个路径时，这个操作将不起作用。 例如，如果你想要购买到编号133的所有时间研究，你需要先购买到达101、102或103的所有研究。",
+  "htp_time_studies": "\t\t\t时间研究 是一种强大的后期升级， 花费时间之理。 时间研究以一种类似科技树的方式进行，在购买之前你必须购买前置的时间研究。 \t\t\t时间之理 是一种有限的资源，购买时间之理的价格随购买次数的增加而提高。 它们可以用反物质、无限点数和永恒点数购买。 \t\t\t重置研究树：重置研究树允许你重置研究树上的升级，以收回花在它们上的时间之理。 它可以在永恒时重置研究树，同时给你重新分配时间定理的机会。 \t\t\t时间之理的价格：(1e20000^(购买的次数+1)) 反物质，(1e100^购买的次数) 无限点数， (2^购买次数) 永恒点数。 \t\t\t小贴士：你可以在选项中设置是否显示时间研究的号码。 \t\t\t小贴士：你可以按住一个时间研究按钮购买直到这个时间研究为止的所有时间研究。 当你只能从多个路径中选择一个路径时，这个操作将不起作用。 例如，如果你想要购买到编号133的所有时间研究，你需要先购买到达101、102或103的所有研究。",
   "htp_time_studies_title": "时间研究",
   "htp_v_title": "成就之神薇",
   "iap_X_hours_of_progress": "获得 $1 小时的离线进度（自动购买器不会像在线时一样全速工作）。",
-  "iap_ad_mult": "反物质维度的加成倍率翻倍，此项目是累乘的。永久有效。目前 $1，下次购买： $2",
+  "iap_ad_mult": "反物质维度的加成倍率翻倍，此项目是累乘的。永久有效。目前 $1，下次购买：$2",
   "iap_all_cosmetic_sets": "一次性解锁所有的符文皮肤",
   "iap_bonuses_disabled": "应用内购加成禁用",
   "iap_bonuses_enabled": "应用内购加成启用",
   "iap_cosmetic_set": "解锁选定的符文皮肤",
-  "iap_dim_mult": "所有维度倍数加成翻倍（最多32倍）。永久有效。当前 $1，下次购买： $2",
-  "iap_dt_speed": "膨胀时间的获得速度增加 $1 倍，效果是累加的。永久有效当前： $2，下次： $3",
-  "iap_ep_mult": "永恒点数的获得速度增加 $1 倍，效果是累加的。永久有效当前： $2，下次： $3",
+  "iap_dim_mult": "所有维度倍数加成翻倍（最多32倍）。永久有效。当前 $1，下次购买：$2",
+  "iap_dt_speed": "膨胀时间的获得速度增加 $1 倍，效果是累加的。永久有效当前：$2，下次：$3",
+  "iap_ep_mult": "永恒点数的获得速度增加 $1 倍，效果是累加的。永久有效当前：$2，下次：$3",
   "iap_glyph": "获得一个随机类型的符文，其等级等于最高的符文等级。",
   "iap_golden_bottom_buttons": "黄金底部按钮（你可以自定义底部按钮的颜色，且随时都可以更改）",
   "iap_golden_bottom_buttons_short": "黄金底部按钮",
-  "iap_ip_mult": "无限点数的获得速度增加 $1 倍，效果是累加的。永久有效当前： $2，下次： $3",
+  "iap_ip_mult": "无限点数的获得速度增加 $1 倍，效果是累加的。永久有效当前：$2，下次：$3",
   "iap_permanent_ad_bonus": "观看广告获得的奖励永久有效",
-  "iap_replicanti_speed": "复制器的获得速度增加 $1 倍，效果是累加的。永久有效当前： $2，下次： $3",
-  "iap_rm_mult": "现实机器的获得速度增加 $1 倍，效果是累加的。永久有效当前： $2，下次： $3",
+  "iap_replicanti_speed": "复制器的获得速度增加 $1 倍，效果是累加的。永久有效当前：$2，下次：$3",
+  "iap_rm_mult": "现实机器的获得速度增加 $1 倍，效果是累加的。永久有效当前：$2，下次：$3",
   "iaps_not_used": "不使用应用内购",
   "iaps_used": "已使用应用内购",
   "ic1": "无限挑战1",
@@ -1988,7 +1988,7 @@ export const zhCN = {
   "import_save_dialog_reality_save": "不支持现实更新后的存档",
   "import_save_dialog_title": "输入你的存档。（注意：这将覆盖你当前的游戏进度！）",
   "import_string": "导入存档",
-  "import_string_has_invalid_ids": "无效的时间研究 ID： $1",
+  "import_string_has_invalid_ids": "无效的时间研究 ID：$1",
   "import_study_presets_info": "确认此对话框将导入所有已保存的时间研究预设作为新的自动化常量。以下是所有将被导入的有效预设，显示了其包含研究的开始和结束。有些名称可能会因常量命名格式的限制而更改。",
   "import_time_study_presets": "导入时间研究预设",
   "import_tree": "导入时间研究树",
@@ -2008,7 +2008,7 @@ export const zhCN = {
   "increase_cap": "增加上限",
   "infinite": "无限",
   "infinities": "无限次数",
-  "infinities_X": "无限次数： $1",
+  "infinities_X": "无限次数：$1",
   "infinities_increased_from_X_to_Y": "无限次数 从 $1 增加到 $2",
   "infinity": "无限",
   "infinity_adjectives": "无限|无界|无边",
@@ -2021,7 +2021,7 @@ export const zhCN = {
   "infinity_dims": "无限维度",
   "infinity_noun": "无限",
   "infinity_points": "无限点数",
-  "infinity_points_X": "无限点数： $1",
+  "infinity_points_X": "无限点数：$1",
   "infinity_points_increased_from_X_to_Y": "无限点数 从 $1 增加到 $2",
   "infinity_points_short": "无限点数",
   "infinity_power": "无限之力",
@@ -2138,7 +2138,7 @@ export const zhCN = {
   "limit_dimboosts_to": "限制维度提升至：",
   "limit_dimboosts_to_4_until_X_galaxies": "在 X 个星系之前，维度提升的数量限制为 $1 ：",
   "limit_galaxies_to": "反物质星系限制：",
-  "line_X_Y": "第 $1 行： $2",
+  "line_X_Y": "第 $1 行：$2",
   "line_count_X": "行数：$1",
   "list_of_doomed_effects": "禁用和削弱的项目列表",
   "load_backup": "加载备份存档",
@@ -2406,7 +2406,7 @@ export const zhCN = {
   "next_auto_ec_completion": "$1自动完成下一个永恒挑战",
   "next_cloud_save_in": "下次云存档将于 $1 后进行",
   "next_ep_at_X_ip": "下一个永恒点数需要 $1 无限点数",
-  "next_goal_at_X_ip": "下一个目标： $1 无限点数",
+  "next_goal_at_X_ip": "下一个目标：$1 无限点数",
   "next_rm_at_X_ep": "下一个现实机器需 $1 永恒点数",
   "next_tickspeed_upgrade_at_X": "于 $1 达到下次计数频率提升",
   "night_mode": "夜间模式",
@@ -2507,7 +2507,7 @@ export const zhCN = {
   "orientation": "屏幕方向",
   "orientations": "系统|竖屏|横屏",
   "other_challenges_await": "下一个挑战在等着我…",
-  "pace_split": "游玩风格路径： $1",
+  "pace_split": "游玩风格路径：$1",
   "pace_split_preference": "优先游玩风格路径",
   "partial_X": "部分 $1",
   "partially_loaded_study_preset_X_missing_Y_studies": "时间研究预设 $1 已部分加载（缺失 $2 个时间研究）",
@@ -2945,16 +2945,16 @@ export const zhCN = {
   "reach_X_ip_and_Y_am_to_unlock_infinity_dimensions": "达到 $1 无限点数和 $2 反物质以解锁无限维度",
   "reach_reality_to_unlock_automator": "达到现实以解锁自动机",
   "reaction": "反应",
-  "reaction_X": "符文炼金反应： $1",
+  "reaction_X": "符文炼金反应：$1",
   "reaction_cannot_toggle": "资源未解锁",
   "reaction_cannot_toggle_b": "此资源没有对应的反应",
   "real_time": "现实时间",
   "real_time_short": "现实时间",
   "realities": "现实次数",
-  "realities_X": "现实次数： $1",
+  "realities_X": "现实次数：$1",
   "realities_increased_from_X_to_Y": "现实次数 从 $1 增加到 $2",
   "reality_adjective": "现实",
-  "reality_animation_X": "现实： $1",
+  "reality_animation_X": "现实：$1",
   "reality_autobuyer_modes": "现实机器|符文等级|现实机器或符文等级|现实机器和符文等级|现实时间|遗迹碎片",
   "reality_autobuyer_not_unlocked": "未解锁自动现实",
   "reality_confirmation": "进行现实将重置所有的游戏内容，以下除外：挑战纪录和统计页面中“概况”条目下的内容。进行现实将重置前 $1 行的所有成就，但你将每隔 $2 自动获得一个成就。现实之后将基于永恒点数获得现实机器，同时获得一个符文。符文的等级基于永恒点数、复制器和膨胀时间计算。你还能获得一个可用于提升游戏体验的复兴点数，并在第一次现实之后解锁大量的现实升级。",
@@ -3091,12 +3091,12 @@ export const zhCN = {
   "rename_this_script_info": "脚本名称限制为 $1 字符。",
   "repeat_this_celestials_reality": "进行现实后重新进入该天神的挑战",
   "replicanti": "复制器",
-  "replicanti_chance": "复制概率： $1",
+  "replicanti_chance": "复制概率：$1",
   "replicanti_galaxies_increased_from_X_to_Y": "复制器星系 从 $1 增加到 $2",
   "replicanti_increased_from_X_to_Y": "复制器 从 $1 增加到 $2",
-  "replicanti_interval": "复制间隔： $1",
+  "replicanti_interval": "复制间隔：$1",
   "replicanti_max_amount": "此次现实中最大的复制器数量是 $1。",
-  "replicanti_max_galaxies": "复制器星系上限： $1",
+  "replicanti_max_galaxies": "复制器星系上限：$1",
   "replicanti_multiplier_dt": "从已装备的符文中获得 $1 倍的膨胀时间",
   "replicanti_multiplier_dt_replicanti": "从已装备的符文中获得 $1 倍的膨胀时间和复制速度",
   "replicanti_multiplier_ids": "无限维度的效果提升$1",
@@ -3277,7 +3277,7 @@ export const zhCN = {
   "select_save": "选择存档",
   "selected_X_contains_following_Y": "\"$1\"皮肤包含以下 $2：",
   "selected_glyphs_must_have_at_least": "选择至少拥有",
-  "setting_X": "(设置： $1)",
+  "setting_X": "(设置：$1)",
   "share_save": "分享存档",
   "shop_disclaimer": "免责声明：这些不是游戏进度所必需的，它们只是为了帮助和支持开发者。",
   "shop_disclaimer_2": "注意：出于法律上的原因，在 Android、Steam 和 Web 版上进行的内购既不互通，也不能相互转移。",
@@ -3523,7 +3523,7 @@ export const zhCN = {
   "statistics_best_ep_this_reality": "当前现实中永恒点数的最大值是 $1。",
   "statistics_best_epmin": "你获得永恒点数的最快速度是每分钟 $1 永恒点数。",
   "statistics_best_epmin_this_reality": "在本次现实中，你获得永恒点数的最快速度是每分钟 $1 永恒点数。",
-  "statistics_best_eternity_points": "最高永恒点数： $1",
+  "statistics_best_eternity_points": "最高永恒点数：$1",
   "statistics_best_glyph_level": "最高符文等级：$1",
   "statistics_best_glyph_rarity": "符文稀有度的最大值为 $1。",
   "statistics_best_ip": "无限点数的最大值是 $1。",
@@ -3562,7 +3562,7 @@ export const zhCN = {
   "statistics_you_have_been_doomed_for": "从毁灭你的现实至今， 你经历了 $1 的现实时间。",
   "statistics_you_have_spent_X_in_this_armageddon": "你已在本次末日中花费 $1",
   "statistics_you_have_spent_X_in_this_reality": "你已在本次现实中花费 $1",
-  "statistics_your_existence_has_spanned": "游戏中的你经历了$1 的游戏内时间",
+  "statistics_your_existence_has_spanned": "游戏中的你经历了 $1 的游戏内时间",
   "status_bar_notification_info_overflow": "999+",
   "sticky_top_buttons_X": "始终浮于顶部：$1",
   "stop_charging": "停止充能",
@@ -3592,7 +3592,7 @@ export const zhCN = {
   "study_preset_saved": "时间研究树已保存到槽位 $1",
   "study_presets": "预设时间研究树：",
   "study_tree_save_confirmation_X": "保存时间研究树：$1",
-  "suggested_fix_X": "建议改为： $1",
+  "suggested_fix_X": "建议改为：$1",
   "sum_of_infinity_challenge_times": "无限挑战时间纪录的总和是 $1",
   "sum_of_normal_challenge_times": "普通挑战时间纪录的总和是 $1",
   "summary_collapsed_preference_list": "$1、$2",
@@ -3703,7 +3703,7 @@ export const zhCN = {
   "this_will_overwrite_constant": "这将覆盖一个已存在的常量的值！",
   "threshold_score": "阈值分数",
   "tick_X": "时刻：$1",
-  "tickspeed": "计数频率： $1 / 秒",
+  "tickspeed": "计数频率：$1 / 秒",
   "tickspeed_autobuyer": "计数频率自动提升",
   "tickspeed_continuum_X": "计数频率连续统：$1",
   "tickspeed_is_dilated": "计数频率是原来的$1",
@@ -3723,7 +3723,7 @@ export const zhCN = {
   "time_to_obtain_X": "$1 后可购买",
   "time_unit_separator": " ",
   "time_unit_separator_last": " ",
-  "time_until_respec_available_X": "重置可用时间： $1",
+  "time_until_respec_available_X": "重置可用时间：$1",
   "timeskip_disclaimer": "游戏内置反作弊系统，它能防止你用修改系统时间的方法，来推进游戏进度。如果系统当前时间早于你上一次游玩的时间，游戏将被冻结，所有数值不会发生任何增长。",
   "timeskip_prevention": "反作弊系统",
   "timestamp_style": "时间戳风格：",
@@ -3810,7 +3810,7 @@ export const zhCN = {
   "total_real_playtime_since_start": "自开始以来所经历的现实时间：$1",
   "total_time_to_auto_condense": "每 $1 （自动）凝聚",
   "total_time_to_condense": "$1 后凝聚",
-  "total_tree_cost": "时间研究树需要： $1 时间之理",
+  "total_tree_cost": "时间研究树需要：$1 时间之理",
   "total_tt": "时间之理总量",
   "translate": "翻译",
   "translate_disclaimer": "帮我们把反物质维度翻译成你的语言",
@@ -3832,7 +3832,7 @@ export const zhCN = {
   "unleash_the_black_hole": "解锁黑洞",
   "unlimited_bulk_buy": "批量购买的数量不受限制",
   "unlock": "解锁​​​​",
-  "unlock_X_tt": "解锁： $1 时间之理",
+  "unlock_X_tt": "解锁：$1 时间之理",
   "unlock_description": "解锁特定的永恒挑战或时间膨胀。",
   "unlock_new_dimension_large": "解锁下一个无限维度",
   "unlock_new_dimension_small": "解锁新维度",
@@ -3953,7 +3953,7 @@ export const zhCN = {
   "you_can_only_have_X_scripts": "你最多只能有 $1 个脚本",
   "you_do_not_yet_know_how_to_store_time": "你是不懂怎么储存时间喔",
   "you_dont_need_more_than_5_cursed_glyphs": "你无需持有多于 $1 个诅咒符文。",
-  "you_encountered_pelle_strike": "佩勒冲击： $1",
+  "you_encountered_pelle_strike": "佩勒冲击：$1",
   "you_have": "你有",
   "you_have_enough_ip_to_buy_tesseract": "你有充足的无限点数来购买一个超立方体",
   "you_have_unlocked_v": "你已解锁成就之神薇！",
@@ -4028,49 +4028,49 @@ export const zhCNplurals = {
     "other": "凝聚所有暗能量以得到 $1 个奇点"
   },
   "cost_X_antimatter": {
-    "other": "价格： $1 反物质"
+    "other": "价格：$1 反物质"
   },
   "cost_X_dark_energy": {
-    "other": "价格： $1 暗能量"
+    "other": "价格：$1 暗能量"
   },
   "cost_X_dark_matter": {
-    "other": "价格： $1 暗物质"
+    "other": "价格：$1 暗物质"
   },
   "cost_X_dilated_time": {
-    "other": "价格： $1 膨胀时间"
+    "other": "价格：$1 膨胀时间"
   },
   "cost_X_eternity_points": {
-    "other": "价格： $1 永恒点数"
+    "other": "价格：$1 永恒点数"
   },
   "cost_X_galaxies": {
     "other": "价格：$1 星系"
   },
   "cost_X_imaginary_machines": {
-    "other": "价格： $1 虚幻机器"
+    "other": "价格：$1 虚幻机器"
   },
   "cost_X_infinity_points": {
-    "other": "价格： $1 无限点数"
+    "other": "价格：$1 无限点数"
   },
   "cost_X_perk_points": {
-    "other": "价格： $1 复兴点数"
+    "other": "价格：$1 复兴点数"
   },
   "cost_X_reality_machines": {
-    "other": "价格： $1 现实机器"
+    "other": "价格：$1 现实机器"
   },
   "cost_X_reality_shards": {
-    "other": "价格： $1 现实碎片"
+    "other": "价格：$1 现实碎片"
   },
   "cost_X_relic_shards": {
-    "other": "价格： $1 遗迹碎片"
+    "other": "价格：$1 遗迹碎片"
   },
   "cost_X_singularities": {
-    "other": "价格： $1 奇点"
+    "other": "价格：$1 奇点"
   },
   "cost_X_time_theorems": {
-    "other": "价格： $1 时间之理"
+    "other": "价格：$1 时间之理"
   },
   "current_interval": {
-    "other": "当前时间间隔： $1 秒"
+    "other": "当前时间间隔：$1 秒"
   },
   "day": {
     "other": "天"
@@ -4110,7 +4110,7 @@ export const zhCNplurals = {
     "other": "获得 $1 现实机器"
   },
   "gain_X_tachyon_particles_eternity_button": {
-    "other": "获得 |$1| 超光速粒子。"
+    "other": "获得 $1 超光速粒子"
   },
   "hour": {
     "other": "时"
@@ -4147,7 +4147,7 @@ export const zhCNplurals = {
     "other": "$1 拥有 $2 记忆"
   },
   "protected_slots": {
-    "other": "保护格： （$1 行）"
+    "other": "保护格：（$1 行）"
   },
   "purchases_left_ec8": {
     "other": "你还能买$1次。"
@@ -4213,13 +4213,13 @@ export const zhCNplurals = {
     "other": "存储的游戏时间 $1, 且存储现实时间的上限 +$2 小时。"
   },
   "tachyon_galaxies_1": {
-    "other": "下一个超光速粒子星系将于 $1 膨胀时间时获得"
+    "other": "下一个超光速粒子星系将于 $1 膨胀时间时获得。"
   },
   "tachyon_galaxies_1_multiple": {
-    "other": "下|$1|个超光速粒子星系将于 |$2| 膨胀时间时获得"
+    "other": "下 |$1| 个超光速粒子星系将于 |$2| 膨胀时间时获得。"
   },
   "tachyon_galaxies_2": {
-    "other": "你已获得 |$1| 超光速粒子星系。"
+    "other": "你已获得 |$1| 个超光速粒子星系。"
   },
   "tachyon_particles": {
     "other": "超光速粒子"

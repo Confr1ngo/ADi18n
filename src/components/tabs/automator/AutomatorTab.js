@@ -33,12 +33,10 @@ export default {
       return this.fullScreen ? "fa-compress-arrows-alt" : "fa-expand-arrows-alt";
     },
     intervalText() {
-      const speedupText = `Each Reality makes it run ${formatPercents(0.006, 1)} faster, up to a maximum of
-        ${formatInt(1000)} per second.`;
+      const speedupText = `每次现实使自动机加快 ${formatPercents(0.006, 1)}，最高现实时间每秒运行 ${formatInt(1000)} 条命令。`;
       return this.interval === 1
-        ? `The Automator is running at max speed (${formatInt(1000)} commands per real-time second).`
-        : `The Automator is running ${quantify("command", 1000 / this.interval, 2, 2)} per real-time second.
-          ${speedupText}`;
+        ? `自动机正以最高速度运行（现实时间每秒运行 ${formatInt(1000)} 条命令）`
+        : `自动机现实时间每秒可运行 ${format(1000 / this.interval, 2, 2)} 条命令。${speedupText}`;
     },
     maxScriptChars() {
       return AutomatorData.MAX_ALLOWED_SCRIPT_CHARACTERS;
@@ -70,14 +68,14 @@ export default {
         :class="{ 'c-overlimit': currentChars > maxScriptChars }"
         data-v-automator-tab
       >
-        This script: {{ formatInt(currentChars) }} / {{ formatInt(maxScriptChars) }}
+        当前脚本：{{ formatInt(currentChars) }} / {{ formatInt(maxScriptChars) }}
       </span>
       |
       <span
         :class="{ 'c-overlimit': totalChars > maxTotalChars }"
         data-v-automator-tab
       >
-        Across all scripts: {{ formatInt(totalChars) }} / {{ formatInt(maxTotalChars) }}
+        所有脚本总计{{ formatInt(totalChars) }} / {{ formatInt(maxTotalChars) }}
       </span>
       <br>
       <span

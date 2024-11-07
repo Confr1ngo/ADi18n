@@ -99,21 +99,19 @@ export default {
       boostList.push(`为所有无限维度提供了 <span class="c-replicanti-description__accent">${formatX(this.mult, 2, 2)}</span>
         倍率。`);
       if (this.hasTDMult) {
-        boostList.push(`a <span class="c-replicanti-description__accent">${formatX(this.multTD, 2, 2)}</span>
-          multiplier on all Time Dimensions from a Dilation Upgrade`);
+        boostList.push(`一项膨胀升级为所有时间维度提供了 <span class="c-replicanti-description__accent">${formatX(this.multTD, 2, 2)}</span> 倍率。`);
       }
       if (this.hasDTMult) {
-        const additionalEffect = GlyphAlteration.isAdded("replication") ? "and Replicanti speed " : "";
-        boostList.push(`a <span class="c-replicanti-description__accent">${formatX(this.multDT, 2, 2)}</span>
-          multiplier to Dilated Time ${additionalEffect}from Glyphs`);
+        const additionalEffect = GlyphAlteration.isAdded("replication") ? "和复制速度" : "";
+        boostList.push(`符文为膨胀时间${additionalEffect}提供了 <span class="c-replicanti-description__accent">${formatX(this.multDT, 2, 2)}</span> 倍率。`);
       }
       if (this.hasIPMult) {
         boostList.push(`a <span class="c-replicanti-description__accent">${formatX(this.multIP)}</span>
           multiplier to Infinity Points from Glyph Alchemy`);
       }
       if (boostList.length === 1) return `${boostList[0]}`;
-      if (boostList.length === 2) return `${boostList[0]}<br> and ${boostList[1]}.`;
-      return `${boostList.slice(0, -1).join(",<br>")},<br> and ${boostList[boostList.length - 1]}.`;
+      if (boostList.length === 2) return `${boostList[0]}<br>${boostList[1]}`;
+      return `${boostList.join("<br>")}`;
     },
     hasMaxText: () => PlayerProgress.realityUnlocked() && !Pelle.isDoomed,
     toMaxTooltip() {
@@ -154,7 +152,7 @@ export default {
       if (this.hasRaisedCap) {
         const mult = this.replicantiCap.div(Decimal.NUMBER_MAX_VALUE);
         this.capMultText = TimeStudy(31).canBeApplied
-          ? `Base: ${formatX(mult.pow(1 / TimeStudy(31).effectValue), 2)}; after TS31: ${formatX(mult, 2)}`
+          ? `基础效果：${formatX(mult.pow(1 / TimeStudy(31).effectValue), 2)}；购买时间研究 31 后: ${formatX(mult, 2)}`
           : formatX(mult, 2);
       }
       this.distantRG = ReplicantiUpgrade.galaxies.distantRGStart;
@@ -208,13 +206,12 @@ export default {
         class="modified-cap"
         data-v-replicanti-tab
       >
-        Completion of Effarig's Infinity is giving you the following rewards:
+        完成鹿颈长的现实给予你如下奖励：
         <br>
-        Your Replicanti cap without TS192 is now {{ format(replicantiCap, 2) }}
+        未购买时间研究 192 时复制器上限为 {{ format(replicantiCap, 2) }}
         ({{ capMultText }})
         <br>
-        {{ quantifyInt("extra Replicanti Galaxy", effarigInfinityBonusRG) }}
-        (Next Replicanti Galaxy at {{ format(nextEffarigRGThreshold, 2) }} cap)
+        额外获得 {{ formatInt(effarigInfinityBonusRG) }} 个复制星系（下一个复制星系需要达到 {{ format(nextEffarigRGThreshold, 2) }} 的上限）
       </div>
       <p class="c-replicanti-description">
         你当前的
