@@ -93,7 +93,7 @@ export default {
       switch (this.currMode) {
         case AUTO_ETERNITY_MODE.TIME:
           return this.nextTime > 0
-            ? $("will_trigger_in_X", TimeSpan.fromSeconds(this.nextTime).toStringShort())
+            ? $t("will_trigger_in_X", TimeSpan.fromSeconds(this.nextTime).toStringShort())
             : $t("will_trigger_asap");
         case AUTO_ETERNITY_MODE.X_HIGHEST:
         default:
