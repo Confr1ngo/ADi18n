@@ -995,13 +995,8 @@ export function simulateTime(seconds, real, fast) {
           GameIntervals.stop();
           ui.$viewModel.modal.progressBar = {
             label: $t("calculating_offline_progress"),
-            info: () => `The game is being run at a lower accuracy in order to quickly calculate the resources you
-              gained while you were away. See the How To Play entry on "Offline Progress" for technical details. If
-              you are impatient and want to get back to the game sooner, you can click the "Speed up" button to
-              simulate the rest of the time with half as many ticks (down to a minimum of ${formatInt(500)} ticks
-              remaining). The "SKIP" button will instead use all the remaining offline time in ${formatInt(10)}
-              ticks.`,
-            progressName: "Ticks",
+            info: () => `游戏正以较低的精度运行，以便快速计算您离开时获得的资源。有关技术细节，请参阅帮助条目中的“离线进度”。如果您不耐烦并想尽快返回游戏，您可以单击“加速”按钮以模拟剩余时间，并将刻数减半（剩余刻数最少为 ${formatInt(500)}）。“跳过”按钮将在 ${formatInt(10)} 个刻数内使用所有剩余的离线时间。`,
+            progressName: "剩余刻数",
             current: doneSoFar,
             max: ticks,
             startTime: Date.now(),

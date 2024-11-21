@@ -24,6 +24,7 @@ export default {
       hasBH2: false,
       blackHoleUptime: [],
       stateChange: "",
+	  autoPauseText: "",
     };
   },
   computed: {
@@ -75,8 +76,12 @@ export default {
         BlackHole(2).duration / BlackHole(2).cycleLength];
       this.detailedBH2 = this.bh2Status();
 
-      if (player.blackHoleNegative < 1) this.stateChange = this.isPaused ? "Uninvert" : "Invert";
-      else this.stateChange = this.isPaused ? "Unpause" : "Pause";
+      if (player.blackHoleNegative < 1) this.stateChange = this.isPaused ? "取消反转" : "反转";
+      else this.stateChange = this.isPaused ? "启动" : "暂停";
+	  if (player.blackHoleAutoPauseMode == 0) this.autoPauseText = "自动暂停：不自动暂停";
+	  else if (player.blackHoleAutoPauseMode == 2) this.autoPauseText = "自动暂停：黑洞 2 激活前暂停";
+	  else if (BlackHole(2).isUnlocked) this.autoPauseText = "自动暂停：黑洞 1 激活前暂停";
+	  else this.autoPauseText = "自动暂停：激活前暂停";
     },
     bh2Status() {
       const bh1Remaining = BlackHole(1).timeWithPreviousActiveToNextStateChange;

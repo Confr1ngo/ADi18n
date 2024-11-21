@@ -17,20 +17,15 @@ export const h2p = {
    */
   tabs: [
     {
-      name: "This Modal",
+      name: "关于帮助",
       info: () => `
-Welcome to the How to Play!
+欢迎来到帮助！
 <br>
 <br>
-This modal (pop-up window) contains in-depth explanations and additional details for everything you will encounter
-as you progress through the game. As you unlock new features and mechanics, you will also gain access to additional
-pages here. If you ever feel lost or confused about how something in the game works, you may find a helpful
-explanation within the related entry in here. 
+本窗口包含您在游戏过程中会遇到的所有问题的深入解释和其他详细信息。当您解锁新功能和机制时，您还可以访问此处的其他页面。如果您对游戏中某些内容的工作原理感到迷茫或困惑，您可以在此处的相关条目中找到有用的解释。
 <br>
 <br>
-For now, opening the How to Play will always start you on this page. After you get your first Dimension Boost,
-opening this modal will instead place you on the How to Play entry most relevant to the game content on your currently
-visible tab and subtab, if such an entry exists.
+目前，打开帮助将始终从此页面开始。在您获得第一个维度提升后，打开此窗口将把您带到当前可见选项卡和子选项卡上与游戏内容最相关的帮助条目（如果存在的话）。
 `,
       isUnlocked: () => true,
       tags: ["h2p", "how", "to", "play", "modal"],
@@ -665,26 +660,18 @@ from quadratic to cubic, with the ${formatX(DC.E55)} multiplier itself increasin
       tags: ["interval", "chance", "infinity", "galaxy", "galaxies", "midgame"],
       tab: "infinity/replicanti"
     }, {
-      name: "Eternity",
+      name: "永恒",
       info: () => `
-Upon reaching ${formatPostBreak(Number.MAX_VALUE, 2)} IP, you can Eternity. Eternities will reset everything before this
-point except challenge times, Achievements, and anything under the General section of the Statistics tab. You will be
-able to access more content after your first Eternity.
+达到 ${formatPostBreak(Number.MAX_VALUE, 2)} 无限点数后，您就可以进行永恒。永恒将重置之前的所有内容，除了挑战时间、成就以及“统计”选项卡的“常规”部分下的任何内容。在第一次进行永恒后，您将能够访问更多内容。
 <br>
 <br>
-You can pass ${formatPostBreak(Number.MAX_VALUE, 2)} IP without anything being forced upon you, unlike the first time
-you reached ${formatPostBreak(Number.MAX_VALUE, 2)} antimatter. You will receive more Eternity Points the more
-Infinity Points you had before going Eternal. You will also gain one "Eternity" for completing an Eternity.
+您可以获得超过 ${formatPostBreak(Number.MAX_VALUE, 2)} 的无限点数，这与第一次达到 ${formatPostBreak(Number.MAX_VALUE, 2)} 反物质不同。进行永恒之前，您拥有的无限点数越多，您获得的永恒点数就越多。进行永恒后，您还将获得一次永恒次数。
 <br>
 <br>
-Eternity Point gain scales similarly to Infinity Point gain, but scaling off of Infinity Points instead of antimatter.
-The base amount of EP gained at ${formatPostBreak(Number.MAX_VALUE, 2)} IP is ~${format(1.62, 2, 2)} EP, multiplied by
-${formatInt(5)} for every factor of ${formatPostBreak(Number.MAX_VALUE, 2)} more IP you have. This is always rounded
-down, which means that you will get ${formatInt(1)} EP at ${formatPostBreak(Number.MAX_VALUE, 2)} IP but will not reach
-${formatInt(2)} EP until ${formatPostBreak(DC.E349)}.
+永恒点数的增加与无限点数的增加类似，但增益是以无限点数而不是反物质为基础的。在 ${formatPostBreak(Number.MAX_VALUE, 2)} 无限点数时获得的永恒点数基本量约为 ${format(1.62, 2, 2)}，每增加 ${formatPostBreak(Number.MAX_VALUE, 2)} 无限点数乘以 ${formatInt(5)}。该值始终向下舍入，这意味着在 ${formatPostBreak(Number.MAX_VALUE, 2)} 无限点数以下您将获得 ${formatInt(1)} 永恒点数，但直到 ${formatPostBreak(DC.E349)} 才会达到 ${formatInt(2)} 永恒点数。
 <br>
 <br>
-<b>Hotkey: E</b> will try to perform an Eternity reset.
+按下 <b>快捷键 E </b>会尝试进行一次永恒。
 `,
       isUnlocked: () => PlayerProgress.eternityUnlocked(),
       tags: ["eternal", "ep", "reset", "prestige", "midgame"],

@@ -190,7 +190,7 @@ export default {
     },
     exitDisplay() {
       if (Player.isInAnyChallenge) return player.options.retryChallenge ? "Retry Challenge" : $t("exit_challenge");
-      if (player.dilation.active) return "Exit Dilation";
+      if (player.dilation.active) return "退出膨胀";
       if (this.resetCelestial) return "Restart Reality";
       return "Exit Reality";
     },

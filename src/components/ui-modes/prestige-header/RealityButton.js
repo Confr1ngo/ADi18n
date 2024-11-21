@@ -45,7 +45,7 @@ export default {
     },
     formatGlyphLevel() {
       if (this.glyphLevel >= 10000) return $t("glyph_level_X", formatInt(this.glyphLevel));
-      return `${$t("glyph_level_X", formatInt(this.glyphLevel))} (${this.nextGlyphPercent} to next)`;
+      return `${$t("glyph_level_X", formatInt(this.glyphLevel))}（距下级 ${this.nextGlyphPercent}）`;
     },
     showShardsRate() {
       return this.currentShardsRate;

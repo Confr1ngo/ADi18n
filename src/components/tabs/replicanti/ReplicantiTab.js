@@ -189,7 +189,7 @@ export default {
       class="o-primary-btn--replicanti-unlock"
       onclick="Replicanti.unlock();"
     >
-      Unlock Replicanti
+      解锁复制器
       <br>
       Cost: {{ format(unlockCost) }} IP
     </PrimaryButton>
