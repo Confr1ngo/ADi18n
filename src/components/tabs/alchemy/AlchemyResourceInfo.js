@@ -102,7 +102,7 @@ export default {
       ({{ $t("recent_change") }}: <span v-html="formattedFlow" />)
     </span>
     <span v-if="isBaseResource">{{ $t("base_resource") }}</span>
-    <span v-else>{{ $t("reaction_X", isReactionActive ? "Active" : "Inactive") }} ({{ reactionText }})</span>
+    <span v-else>{{ $t("reaction_X", isReactionActive ? "启用" : "禁用") }} ({{ reactionText }})</span>
     <span :class="{ 'o-pelle-disabled': isDoomed }">
       <EffectDisplay
         :label="$t('effect')"

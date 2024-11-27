@@ -91,7 +91,7 @@ export default {
         @click="cycleLayout"
         data-v-perk-point-label
       >
-        Perk Layout: {{ layoutText }}
+        复兴树布局：{{ layoutText }}
       </PrimaryButton>
       <PrimaryButton
         :class="physicsClassObject()"
@@ -106,14 +106,14 @@ export default {
         @click="centerTree"
         data-v-perk-point-label
       >
-        Center Tree on START
+        将 START 节点置于中心
       </PrimaryButton>
       <PrimaryButton
         class="o-primary-btn"
         @click="straightenEdges"
         data-v-perk-point-label
       >
-        Straighten Edges
+        将所有边调直
       </PrimaryButton>
     </div>
   </div>

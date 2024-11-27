@@ -7,8 +7,8 @@ export default {
   },
   computed: {
     upgrades: () => RealityUpgrades.all,
-    costScalingTooltip: () => `Prices start increasing faster above ${format(1e30)} RM and then even faster
-      above ${format(Decimal.NUMBER_MAX_VALUE, 1)} RM`,
+    costScalingTooltip: () => `价格在达到 ${format(1e30)} 现实机器后加速增长，并在达到
+	${format(Decimal.NUMBER_MAX_VALUE, 1)} 现实机器后进一步加速增长。`,
     possibleTooltip: () => `Checkered upgrades are impossible to unlock this Reality. Striped upgrades are
       still possible.`,
     lockTooltip: () => `This will only function if you have not already failed the condition or
@@ -25,13 +25,9 @@ export default {
       class="c-reality-upgrade-infotext"
       data-v-reality-upgrades-tab
     >
-      Mouseover <i class="fas fa-question-circle" /> icons for additional information.
+      将鼠标悬停于 <i class="fas fa-question-circle" /> 标志上显示补充信息。
       <br>
-      The first row of upgrades can be purchased endlessly for increasing costs
-      <span :ach-tooltip="costScalingTooltip">
-        <i class="fas fa-question-circle" />
-      </span>
-      and the rest are single-purchase.
+      第一行升级可无限购买，但价格逐渐提升 <span :ach-tooltip="costScalingTooltip"><i class="fas fa-question-circle" /></span>；剩余升级仅能购买一次。
       <br>
       Single-purchase upgrades also have requirements which, once completed, permanently unlock the ability
       to purchase the upgrades at any point.

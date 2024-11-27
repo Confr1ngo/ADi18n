@@ -17,7 +17,7 @@ export default {
   template: `
   <div class="c-automator-docs-page">
     <div v-if="errors.length === 0">
-      No script errors found!
+      脚本无错误！
     </div>
     <div v-else>
       <b>Your script has the following {{ quantify("error", errors.length) }}:</b>

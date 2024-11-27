@@ -30,9 +30,9 @@ export default {
   },
   computed: {
     sidebarDB: () => GameDatabase.sidebarResources,
-    languageLabel() {
-      return $t("X_colon_Y", $t("language_title"), this.language);
-    },
+    // languageLabel() {
+    //   return $t("X_colon_Y", $t("language_title"), this.language);
+    // },
     themeLabel() {
       return $t("X_colon_Y", $t("theme"), Themes.find(this.theme).displayName());
     },
@@ -149,14 +149,6 @@ export default {
             <SelectSidebarDropdown />
           </template>
         </ExpandingControlBox>
-      </div>
-      <div class="l-options-grid__row">
-        <OptionsButton
-          class="o-primary-btn--option"
-          onclick="GameOptions.toggleLanguage()"
-        >
-          {{ languageLabel }}
-        </OptionsButton>
       </div>
       <OpenModalHotkeysButton />
     </div>

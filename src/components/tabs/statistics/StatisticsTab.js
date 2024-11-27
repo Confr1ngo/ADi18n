@@ -274,7 +274,7 @@ export default {
         {{ $t("tab_eternity") }}
       </div>
       <div>
-	    <span v-if="reality.isUnlocked">本次现实中</span>你有 {{ eternityCountString }}<span v-if="reality.isUnlocked"> 次永恒。
+	    <span v-if="reality.isUnlocked">本次现实中</span>你有 {{ eternityCountString }} 次永恒。
       </div>
       <div v-if="infinity.projectedBanked.gt(0)">
         本次永恒时将获得 {{ formatDecimalAmount(infinity.projectedBanked.floor()) }} 次储存的无限次数。（每分钟 {{ formatDecimalAmount(infinity.bankRate) }} 次）

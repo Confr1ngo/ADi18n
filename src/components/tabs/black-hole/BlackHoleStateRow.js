@@ -40,7 +40,7 @@ export default {
   <h3 v-if="isUnlocked">
     {{ $t("X_state", description) }}
     <template v-if="isPermanent">
-      Permanently Active
+      永久启动
     </template>
     <template v-else-if="isActive">
       {{ $t("active_X_remaining", nextChange) }}

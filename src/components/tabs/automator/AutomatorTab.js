@@ -75,7 +75,7 @@ export default {
         :class="{ 'c-overlimit': totalChars > maxTotalChars }"
         data-v-automator-tab
       >
-        所有脚本总计{{ formatInt(totalChars) }} / {{ formatInt(maxTotalChars) }}
+        所有脚本总计 {{ formatInt(totalChars) }} / {{ formatInt(maxTotalChars) }}
       </span>
       <br>
       <span

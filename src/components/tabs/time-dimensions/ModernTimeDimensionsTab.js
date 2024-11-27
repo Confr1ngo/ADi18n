@@ -87,15 +87,15 @@ export default {
       />
     </div>
     <div>
-      Time Dimension costs jump at {{ format(costIncreases[0], 2, 2) }} and
-      {{ format(costIncreases[1]) }} Eternity Points,
+      时间维度价格在 {{ format(costIncreases[0], 2, 2) }} 和
+      {{ format(costIncreases[1]) }} 永恒点数处大幅提升，
       <br>
-      and costs increase much faster after {{ format(costIncreases[2]) }} Eternity Points.
+      并在 {{ format(costIncreases[2]) }} 永恒点数后大幅加速增长。
       <br>
       <div v-if="showLockedDimCostNote">
-        Hold shift to see the Eternity Point cost for locked Time Dimensions.
+        按住 Shift 键查看未解锁的时间维度价格。
       </div>
-      Any 8th Time Dimensions purchased above {{ format(1e8) }} will not further increase the multiplier.
+     第八维度购买超过 {{ format(1e8) }} 次后倍率不再提升。
     </div>
   </div>
   `

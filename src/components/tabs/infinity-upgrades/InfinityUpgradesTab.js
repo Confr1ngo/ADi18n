@@ -134,7 +134,7 @@ export default {
     <div v-if="chargeUnlocked">
       {{ $t("charged_infinity_upgrades_info", formatInt(chargesUsed), formatInt(totalCharges)) }}
       <br>
-      Hold shift to show Charged Infinity Upgrades.
+      按住 Shift 键显示充能后的无限升级。
     </div>
     <div v-if="isUseless">
       You cannot Charge Infinity Upgrades while Doomed.

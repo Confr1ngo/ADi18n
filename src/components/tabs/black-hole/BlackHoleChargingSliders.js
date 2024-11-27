@@ -65,8 +65,8 @@ export default {
       data-v-black-hole-charging-sliders
     >
       <b>
-        Inverted Black Hole divides game speed by {{ format(negativeBHDivisor, 2, 2) }}.
-        (Currently {{ isInverted ? "active" : "inactive" }}<span
+        反转黑洞减速游戏 {{ format(negativeBHDivisor, 2, 2) }} 倍。
+        （当前 {{ isInverted ? "已反转" : "未反转" }}<span
           v-if="negativeSlider !== 0 && !isInverted"
           :ach-tooltip="infoTooltip"
         >
@@ -74,7 +74,7 @@ export default {
             class="fas fa-question-circle l-margin-left"
             data-v-black-hole-charging-sliders
           />
-        </span>)
+        </span>）
       </b>
       <SliderComponent
         v-if="!isDisabled"
